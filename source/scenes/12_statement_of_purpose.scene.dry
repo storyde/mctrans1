@@ -1,0 +1,277 @@
+﻿title: Statement of Purpose
+subtitle: Defining what our organisation provides
+
+Facilyn: Next, we need a Statement of Purpose of your organisation. So, how would you describe your organisation's purpose?
+
+- #st_purpose
+
+@stmp_explanation
+title: I am not sure what a Statement of Purpose is.
+max-visits: 1
+tags: st_purpose
+
+Me: I am not sure what a Statement of Purpose is.
+
+Facilyn: A Statement of Purpose captures the positive change your organisation creates. It's the "why" behind everything you do.
+
+Facilyn: For example, a hospital's purpose isn't "To make money from sick people" — instead, it can be described like this: "To heal and restore health."
+
+Facilyn: A factory's purpose isn't just "To make things" — it might be "To create tools that improve people's lives" or "To transform raw materials into useful products."
+
+Facilyn: Which purpose fits your organisation best?
+
+Out in the harbour, a cargo drone hovers above the docks, job done, purpose pending.
+
+- #st_purpose
+
+# Statement of Purpose
+
+# Agriculture
+
+@stmp_agr_farm
+title: We produce food to nourish communities
+view-if: sector = "agriculture"
+on-arrival: st-purpose = "We produce food to nourish communities"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We produce food to nourish communities.
+
+@stmp_agr_coop
+title: We support farmers and strengthen rural communities
+view-if: sector = "agriculture"
+on-arrival: st-purpose = "We support farmers and strengthen rural communities"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We support farmers and strengthen rural communities.
+
+@stmp_agr_ranch
+title: We steward the land for future generations
+view-if: sector = "agriculture"
+on-arrival: st-purpose = "We steward the land for future generations"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We steward the land for future generations.
+
+# Business
+
+@stmp_bus_store
+title: We make life more convenient and efficient
+view-if: sector = "business"
+on-arrival: st-purpose = "We make life more convenient and efficient"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We make life more convenient and efficient.
+
+@stmp_bus_insurance
+title: We protect people and organisations from financial risk so they can thrive
+view-if: sector = "business"
+on-arrival: st-purpose = "We protect people and organisations from financial risk so they can thrive"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We protect people and organisations from financial risk so they can thrive.
+
+@stmp_bus_hospitality
+title: We provide welcoming spaces and experiences for travellers
+view-if: sector = "business"
+on-arrival: st-purpose = "We provide welcoming spaces and experiences for travellers"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We provide welcoming spaces and experiences for travellers.
+
+@stmp_bus_company
+title: We provide value through our professional services and products
+view-if: sector = "business"
+on-arrival: st-purpose = "We provide value through our professional services and products"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We provide value through our professional services and products.
+
+# Culture
+
+@stmp_cul_arts
+title: We foster cultural expression and creativity
+view-if: sector = "culture"
+on-arrival: st-purpose = "We foster cultural expression and creativity"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We foster cultural expression and creativity.
+
+@stmp_cul_heritage
+title: We preserve and share cultural heritage
+view-if: sector = "culture"
+on-arrival: st-purpose = "We preserve and share cultural heritage"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We preserve and share cultural heritage.
+
+@stmp_cul_newsroom
+title: We inform the public with accurate, independent reporting
+view-if: sector = "culture"
+on-arrival: st-purpose = "We inform the public with accurate, independent reporting"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We inform the public with accurate, independent reporting.
+
+# Education
+
+@stmp_edu_kindergarten
+title: We provide a safe, nurturing environment where young children can learn and grow
+view-if: sector = "education"
+on-arrival: st-purpose = "We provide a safe, nurturing environment where young children can learn and grow"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We provide a safe, nurturing environment where young children can learn and grow.
+
+@stmp_edu_school
+title: We prepare students for their future and help them reach their potential
+view-if: sector = "education"
+on-arrival: st-purpose = "We prepare students for their future and help them reach their potential"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We prepare students for their future and help them reach their potential.
+
+@stmp_edu_university
+title: We advance knowledge through research and prepare leaders for tomorrow
+view-if: sector = "education"
+on-arrival: st-purpose = "We advance knowledge through research and prepare leaders for tomorrow"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We advance knowledge through research and prepare leaders for tomorrow.
+
+# Industry
+
+@stmp_ind_factory
+title: We make useful products that improve people's lives
+view-if: sector = "industry"
+on-arrival: st-purpose = "We make useful products that improve people's lives"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We make useful products that improve people's lives.
+
+@stmp_ind_construction
+title: We create safe, durable structures and infrastructure that serve communities
+view-if: sector = "industry"
+on-arrival: st-purpose = "We create safe, durable structures and infrastructure that serve communities"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We create safe, durable structures and infrastructure that serve communities.
+
+@stmp_ind_logging
+title: We provide timber resources responsibly to meet society's needs
+view-if: sector = "industry"
+on-arrival: st-purpose = "We provide timber resources responsibly to meet society's needs"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We provide timber resources responsibly to meet society's needs.
+
+# Nonprofit
+
+@stmp_nonprofit_service
+title: We address community needs and social challenges
+view-if: sector = "nonprofit"
+on-arrival: st-purpose = "We address community needs and social challenges"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We address community needs and social challenges.
+
+@stmp_nonprofit_advocacy
+title: We advocate for positive change and social justice
+view-if: sector = "nonprofit"
+on-arrival: st-purpose = "We advocate for positive change and social justice"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We advocate for positive change and social justice.
+
+@stmp_nonprofit_climate
+title: We protect the environment and fight climate change
+view-if: sector = "nonprofit"
+on-arrival: st-purpose = "We protect the environment and fight climate change"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We protect the environment and fight climate change.
+
+# Public service
+
+@stmp_pub_transport
+title: We connect communities with safe and accessible transport
+view-if: sector = "publicservice"
+on-arrival: st-purpose = "We connect communities with safe and accessible transport"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We connect communities with safe and accessible transport.
+
+@stmp_pub_health
+title: We heal, prevent illness, and restore health
+view-if: sector = "publicservice"
+on-arrival: st-purpose = "We heal, prevent illness, and restore health"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We heal, prevent illness, and restore health.
+
+@stmp_pub_service
+title: We serve the public interest and common good
+view-if: sector = "publicservice"
+on-arrival: st-purpose = "We serve the public interest and common good"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We serve the public interest and common good.
+
+@stmp_pub_parks
+title: We protect and share our natural heritage for current and future generations
+view-if: sector = "publicservice"
+on-arrival: st-purpose = "We protect and share our natural heritage for current and future generations"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We protect and share our natural heritage for current and future generations.
+
+# Policymaking
+
+@stmp_pol_policy
+title: We represent citizens and shape public policy for the common good
+view-if: sector = "policymaking"
+on-arrival: st-purpose = "We represent citizens and shape public policy for the common good"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We represent citizens and shape public policy for the common good.
+
+@stmp_pol_city
+title: We govern local communities and provide municipal services
+view-if: sector = "policymaking"
+on-arrival: st-purpose = "We govern local communities and provide municipal services"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We govern local communities and provide municipal services.
+
+@stmp_pol_intl
+title: We promote international cooperation and diplomacy
+view-if: sector = "policymaking"
+on-arrival: st-purpose = "We promote international cooperation and diplomacy"
+go-to: 13_qol_intro
+tags: st_purpose
+
+Me: We promote international cooperation and diplomacy.

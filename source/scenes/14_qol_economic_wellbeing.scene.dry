@@ -1,0 +1,73 @@
+title: Ok
+tags: qol_intro
+
+Me: Ok
+
+Facilyn: Economic well-being is essential for meeting basic human needs — food, clothing, shelter, health, and security. Focus on what money provides, not money itself.
+
+Facilyn: What aspect of economic well-being matters most to you?
+
+- #economic_aspects
+
+@qolew_explanation
+title: I am not sure...
+max-visits: 1
+tags: economic_aspects
+
+Me: I am not sure...
+
+Facilyn: Take your time. Remember, you're describing how you want your economic life to feel and function, not specific dollar amounts or possessions.
+
+Facilyn: Name what you gain from having money. Security? Freedom? The ability to help others? That underlying benefit is what belongs in your Quality of Life Statement.
+
+- #economic_aspects
+
+@qolew_basic_needs_fulfilled
+title: Nutritious food, warm clothing and a cosy home
+on-arrival: qol-economic = "Nutritious food, warm clothing and a cosy home"
+go-to: 15_qol_relationships
+tags: economic_aspects
+
+Me: Nutritious food, warm clothing and a cosy home.
+
+Facilyn: Fundamental and wise. When basic needs like food, clothing, and shelter are reliably met, you're free to focus on growth and contribution rather than survival.
+
+@qolew_economic_security
+title: Economic security and the ability to help others
+on-arrival: qol-economic = "Economic security and the ability to help others"
+go-to: 15_qol_relationships
+tags: economic_aspects
+
+Me: Economic security and the ability to help others.
+
+Facilyn: Excellent. Economic security means having enough resources to cover uncertainties and plan for the future. The capacity to look outward and support others can turn personal success into shared well-being.
+
+@qolew_comfortable_surroundings
+title: Comfortable surroundings and freedom to pursue my interests
+on-arrival: qol-economic = "Comfortable surroundings and freedom to pursue my interests"
+go-to: 15_qol_relationships
+tags: economic_aspects
+
+Me: Comfortable surroundings and freedom to pursue my interests.
+
+Facilyn: Yes, the ability to live in environments that nurture and sustain you. Economic well-being as a foundation for choice and self-determination.
+
+@qolew_health_and_vitality
+title: Resources for health and security
+on-arrival: qol-economic = "Resources for health and security"
+go-to: 15_qol_relationships
+tags: economic_aspects
+
+Me: Resources for health and security.
+
+Facilyn: Essential. Economic well-being is vital for meeting basic human needs for health and security. It's about having the means to protect and care for yourself and your loved ones.
+
+@qolew_travel_and_experience
+title: Resources to travel and experience the world
+on-arrival: qol-economic = "Resources to travel and experience the world"
+go-to: 15_qol_relationships
+tags: economic_aspects
+
+Me: Resources to travel and experience the world.
+
+Facilyn: Exploring the world opens your mind and spirit. It's about using resources not just to acquire things, but to acquire perspective, understanding, and memories that last a lifetime.

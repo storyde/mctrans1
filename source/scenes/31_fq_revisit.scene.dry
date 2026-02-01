@@ -1,0 +1,108 @@
+title: Revisit Filter Questions
+
+Facilyn: If you skipped any filter questions, you can revisit them now. Otherwise, you can finalize your decision.
+
+- #revisit_skips
+
+@revisit_cause
+title: Revisit Cause and Effect Check
+view-if: fltr-cause = "" or fltr-cause = "skip" or fltr-cause = 0
+tags: revisit_skips
+
+Me: Revisit Cause and Effect Check.
+
+Facilyn: "Does this action address the root cause of the problem?"
+
+- #cause_effect
+
+@revisit_weak_link
+title: Revisit the Weak Link Checks
+view-if: wk-social = "Skip" or wl-biological = "Skip" or wl-financial = "Skip"
+tags: revisit_skips
+
+Me: Revisit the Weak Link Checks.
+
+Facilyn: Which type of weak link would you like to check?
+
+- #weak_links
+
+@revisit_marginal
+title: Revisit Marginal Reaction Check
+view-if: fltr-marginal = "skip"
+tags: revisit_skips
+
+Me: Revisit Marginal Reaction Check.
+
+Facilyn: "Which action will provide the greatest return toward the goal for each additional unit of money or time invested?"
+
+- #marginal_reaction
+
+@revisit_gross_profit
+title: Revisit Gross Profit Analysis
+view-if: gp-status = "skip"
+tags: revisit_skips
+
+Me: Revisit Gross Profit Analysis.
+
+Facilyn: "Which enterprises contribute the most to covering the overheads of the business?"
+
+- #gross_profit
+
+@revisit_em_source
+title: Revisit Energy/Money Source
+view-if: em-source = "skip"
+tags: revisit_skips
+
+Me: Revisit energy/money source.
+
+Facilyn: "Is the energy or money to be used in this action derived from the most appropriate source in terms of our holistic context?"
+
+- #em_source
+
+@revisit_em_use
+title: Revisit Energy/Money use
+view-if: em-use = "skip"
+tags: revisit_skips
+
+Me: Revisit energy/money use.
+
+Facilyn: "Will the way in which the energy or money is used be in line with our holistic context?"
+
+- #em_use
+
+@revisit_sustainability_social
+title: Revisit the social sustainability check
+view-if: sus-behavior = "skip"
+tags: revisit_skips
+
+Me: Revisit the social Sustainability Check.
+
+Facilyn: "If we take this action will it lead toward or away from the future resource base described in our holistic context?"
+
+Facilyn: Will your **Behavior** shape trust and relationships?
+
+- #sus_behavior
+
+@revisit_sustainability_environment
+title: Revisit the environmental sustainability check
+view-if: sus-environment = "skip"
+tags: revisit_skips
+
+Me: Revisit the environmental Sustainability Check.
+
+Facilyn: "If we take this action will it lead toward or away from the future resource base described in our holistic context?"
+
+Facilyn: Will your action lead toward or away from the future landscape described in our holistic context?
+
+- #sus_environment
+
+@revisit_gut_feel
+title: Revisit Gut Feel Check
+view-if: gut-status = "skip"
+tags: revisit_skips
+
+Me: Revisit Gut Feel Check.
+
+Facilyn: "How do we feel about this action now? Will it lead to the quality of life we desire? Will it adversely affect the lives of others?"
+
+- #gut_feel

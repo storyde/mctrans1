@@ -1,0 +1,55 @@
+﻿title: Future Resource Base - Environment
+subtitle: Our Future Landscape
+new-page: true
+
+Facilyn: Now we describe how the land and environment must be far into the future to sustain your quality of life. Even if you don't directly manage land, it's important to describe your surroundings, because you will always need air, water, food and so on.
+
+Facilyn: We'll think in terms of the four ecosystem processes: water cycle, mineral cycle, community dynamics, and energy flow.
+
+- #environment_aspects
+
+@frbe_clarification
+title: What are the ecosystem processes?
+tags: environment_aspects
+
+Me: What are the ecosystem processes?
+
+Facilyn: With that I mean four major processes we can recognize in our environment.
+
+Facilyn: **Water Cycle**: How effectively the land catches and holds rain.
+
+Facilyn: **Mineral Cycle**: How well nutrients circulate through soil and plants.
+
+Facilyn: **Community Dynamics**: How diverse and resilient the community of life is.
+
+Facilyn: **Energy Flow**: How much sunlight is captured and turned into life.
+
+Facilyn: You don't need to be a scientist. Just express your need for surroundings that are stable, productive, and healthy — with covered soils, clean water, and thriving biodiversity. Describe them not as they are now, but as they must be to sustain the quality of life that you want for generations.
+
+A gardening robot tends to the plants outside the teahouse, carefully measuring soil moisture and adjusting its watering pattern with the precision of a master horticulturist.
+
+- #environment_aspects
+
+@frbe_detailed_scientific
+title: Maximized water and mineral cycles, optimized energy flow, and rich biodiversity
+on-arrival: frb-environment = "Maximized water and mineral cycles, optimized energy flow, and rich biodiversity"
+go-to: 21_holtext
+tags: environment_aspects
+
+Me: Maximized water and mineral cycles, optimized energy flow, and rich biodiversity.
+
+@frbe_descriptive_visionary
+title: Healthy, biologically diverse land with covered soils and clear, perennial streams
+on-arrival: frb-environment = "Healthy, biologically diverse land with covered soils and clear, perennial streams"
+go-to: 21_holtext
+tags: environment_aspects
+
+Me: Healthy, biologically diverse land with covered soils and clear, perennial streams.
+
+@frbe_simple_grounded
+title: Stable, productive surroundings with clean water and covered, fertile soils
+on-arrival: frb-environment = "Stable, productive surroundings with clean water and covered, fertile soils"
+go-to: 21_holtext
+tags: environment_aspects
+
+Me: Stable, productive surroundings with clean water and covered, fertile soils.

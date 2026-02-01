@@ -1,0 +1,21 @@
+title: Completed holistic context
+new-page: true
+
+Facilyn: Excellent. You now have a complete holistic context — your whole under management, your quality of life statement, and your future resource base description.
+
+Facilyn: Remember, this version is somewhat generic, built from the options you were given. To make it yours, write one [? if part-of != "individual" : together ?] in your own words and ensure every decision maker shares a complete understanding of what each statement means. 
+
+Facilyn: When every decision maker has ownership in it and sees their deepest values reflected, they can commit to it.
+
+Facilyn: This holistic context will then serve as your North Star. It is not a goal to be achieved, but a guide for your daily decisions while managing complexity, ensuring you always stay on course. Just like the compass on the ships leaving this harbour.
+
+Facilyn: To help you use it effectively, we use seven testing questions. They filter out actions that might look good today but would take you off course tomorrow.
+
+- #holtext_complete
+
+@continue_to_checks
+title: Continue to the Seven Context Checks
+go-to: 22_fq_intro
+tags: holtext_complete
+
+Me: Continue to the Seven Context Checks.

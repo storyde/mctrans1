@@ -1,0 +1,45 @@
+title: Test
+subtitle: Just a test choice
+is-special: true
+new-page: true
+tags: root
+
+= Title
+
+> Quote
+
+>> Attribution
+
+*This should be italicized.*
+
+**This should be bolded.**
+
+Should see asterisk: \* 
+
+Should see slash-asterisk: \\\* 
+
+Should see slash-slash-asterisk: \\\\* 
+
+Should see brackets: \[ \]
+
+---
+
+
+Code: `this should be monospaced.`
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('32_framework_outro');">Scene Outro</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('5_wum_intro');">5_wum_intro</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('13_qol_intro');">13_qol_intro</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('18_frb_intro');">18_frb_intro</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('21_holtext');">21_holtext</a>!}
+
+In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('30_fq_results');">30_fq_results</a>!}
+
+# TODO: hover-over
+
+{!<a href="#" onmouseover="this.innerHTML='Guilty';" onmouseout="this.innerHTML='Not Guilty';>Not Guilty</a>!}
+

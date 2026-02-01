@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"command": "bun",
+			"args": ["run", "../local-dendry/lib/cli/main.js", "make-html"],
+			"problemMatcher": [],
+			"label": "bun run ../local-dendry/lib/cli/main.js make-html",
+			"detail": "Build Dendry project with bun"
+		}
+	]
+}

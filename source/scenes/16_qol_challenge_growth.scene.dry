@@ -1,0 +1,87 @@
+title: Challenge and Growth
+subtitle: What Stimulates and Develops Us
+new-page: true
+
+Facilyn: Now we will look into the challenges and growth you seek. Think in terms of what you find stimulating, what requires all the resourcefulness and creativity you can muster.
+
+Facilyn: What kind of challenge and growth environment do you want?
+
+- #challenge_aspects
+
+@qolcg_clarification
+title: I need more clarification on this one
+tags: challenge_aspects
+
+Me: I need more clarification on this one.
+
+Facilyn: Think about what energizes you and pushes you to grow. What sort of working environment stimulates creativity and allows you to reach your full potential? Focus on the conditions that bring out your best.
+
+Facilyn: Challenge and growth aren't about stress or difficulty for their own sake - they're about engaging your capabilities fully and expanding them.
+
+A cleaning robot methodically works its way around the teahouse, pausing to contemplate a particularly stubborn tea stain with what appears to be genuine philosophical concern.
+
+- #challenge_aspects
+
+@qolcg_future_generations
+title: The challenge of stewardship: offering hope to future generations
+on-arrival: qol-challenge = "The challenge of stewardship: offering hope to future generations"
+go-to: 17_qol_purpose_contribution
+tags: challenge_aspects
+
+Me: The challenge of stewardship: offering hope to future generations.
+
+@qolcg_clarity_creation
+title: Creating clarity and direction where none existed before
+on-arrival: qol-challenge = "Creating clarity and direction where none existed before"
+go-to: 17_qol_purpose_contribution
+tags: challenge_aspects
+
+Me: Creating clarity and direction where none existed before.
+
+@qolcg_stretching_comfort
+title: Constantly pushing boundaries and learning
+on-arrival: qol-challenge = "Constantly pushing boundaries and learning"
+go-to: 17_qol_purpose_contribution
+tags: challenge_aspects
+
+Me: Constantly pushing boundaries and learning.
+
+@qolcg_experimentation_space
+title: A fearless space for experimentation and being humbled by nature's wisdom
+on-arrival: qol-challenge = "A fearless space for experimentation and being humbled by nature's wisdom"
+go-to: 17_qol_purpose_contribution
+tags: challenge_aspects
+
+Me: A fearless space for experimentation and being humbled by nature's wisdom.
+
+@qolcg_navigating_unknown
+title: Navigating the unknown with radical curiosity and the courage to explore
+on-arrival: qol-challenge = "Navigating the unknown with radical curiosity and the courage to explore"
+go-to: 17_qol_purpose_contribution
+tags: challenge_aspects
+
+Me: Navigating the unknown with radical curiosity and the courage to explore.
+
+@qolcg_psychological_safety
+title: Creating psychological safety that empowers us to take risks
+on-arrival: qol-challenge = "Creating psychological safety that empowers us to take risks"
+go-to: 17_qol_purpose_contribution
+tags: challenge_aspects
+
+Me: Creating psychological safety that empowers us to take risks.
+
+@qolcg_deep_questions
+title: Grappling with deep questions that demand patience and wisdom
+on-arrival: qol-challenge = "Grappling with deep questions that demand patience and wisdom"
+go-to: 17_qol_purpose_contribution
+tags: challenge_aspects
+
+Me: Grappling with deep questions that demand patience and wisdom.
+
+@qolcg_freedom_flow
+title: The exhilaration of autonomy, where freedom and responsibility merge into creative flow
+on-arrival: qol-challenge = "The exhilaration of autonomy, where freedom and responsibility merge into creative flow"
+go-to: 17_qol_purpose_contribution
+tags: challenge_aspects
+
+Me: The exhilaration of autonomy, where freedom and responsibility merge into creative flow.

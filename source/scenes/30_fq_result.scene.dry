@@ -1,0 +1,35 @@
+title: Filter Questions Result
+subtitle: Summary of your analysis
+go-to: 31_fq_revisit
+new-page: true
+
+Facilyn: You have now run your decision through all seven context checks. Let's review the results.
+
+# Cause and Effect
+Facilyn: **Cause and Effect**: [+ fltr-cause +]
+
+# Weak Link
+Facilyn: **Social Weak Link**: [+ wl-social +]
+
+Facilyn: **Biological Weak Link**: [+ wl-biological +]
+
+Facilyn: **Financial Weak Link**: [+ wl-financial +]
+
+# Marginal Reaction
+Facilyn: **Marginal Reaction**: [+ fltr-marginal +]
+
+# Gross Profit
+Facilyn: **Gross Profit**: [+ fltr-profit +]
+
+# Energy/Money
+Facilyn: **Energy/Money Source**: [+ em-source +]
+
+Facilyn: **Energy/Money Use**: [+ em-use +]
+
+# Sustainability
+Facilyn: **Behaviour**: [+ sus-behaviour +]
+
+Facilyn: **Environment**: [+ sus-environment +]
+
+# Gut Feel
+Facilyn: **Gut Feel**: [+ fltr-gut +]

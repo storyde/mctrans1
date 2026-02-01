@@ -1,0 +1,52 @@
+﻿title: Cause and Effect Check
+subtitle: Addressing Root Causes
+new-page: true
+
+Facilyn: The first context check helps you avoid treating symptoms while ignoring underlying causes by asking:
+
+Facilyn: "Does this action address the root cause of the problem?"
+
+- #cause_effect
+
+@fqce_clarification
+title: I need help distinguishing cause from symptom
+tags: cause_effect
+
+Me: I need help distinguishing cause from symptom.
+
+Facilyn: Think of it this way — symptoms are what you observe or experience, while causes are what creates those symptoms. For example, if robots keep malfunctioning, the symptom is broken robots, but the cause might be poor maintenance or inadequate training.
+
+Facilyn: After finding a cause, you might need to ask yourself multiple times: "Well, and what is the cause of that?" to really get to the root of the problem.
+
+A repair robot wheels past the teahouse, methodically fixing a street lamp that keeps flickering, apparently unaware that the real problem is the faulty electrical connection three blocks away.
+
+- #cause_effect
+
+@fqce_pass
+title: Yes, it addresses the root cause
+on-arrival: fltr-cause = "addresses root cause"
+go-to: 24_fq_weak_link
+tags: cause_effect
+
+Me: Yes, it addresses the root cause.
+
+Facilyn: Excellent. You've identified that your action targets the fundamental issue, not just its symptoms. This gives your decision a solid foundation.
+
+@fqce_fail
+title: No, it only treats symptoms
+on-arrival: fltr-cause = "treats symptoms"
+go-to: 24_fq_weak_link
+tags: cause_effect
+
+Me: No, it only treats symptoms.
+
+Facilyn: An important realization. Treating symptoms might provide temporary relief, but the underlying problem will likely resurface. Consider how you might address the deeper cause instead.
+
+@fqce_skip
+title: Not sure, let me review this check later
+go-to: 24_fq_weak_link
+tags: cause_effect
+
+Me: Not sure, let me review this check later.
+
+Facilyn: If you finish the checks and still lack a clear answer, circle back here. Revisiting skipped checks often provides the missing piece of the puzzle. 
