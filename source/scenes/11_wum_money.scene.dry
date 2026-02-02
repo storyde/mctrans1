@@ -1,335 +1,335 @@
-title: Monetary Resources
+title: Monetäre Ressourcen
 
-Facilyn: The last category of resources you have is money.
+Facilyn: Die letzte Kategorie deiner Ressourcen ist Geld.
  
-Facilyn: This is not about a deeper conversation about the meaning of money and wealth. Just list what is in your reach.
+Facilyn: Es geht hier nicht um ein tieferes Gespräch über die Bedeutung von Geld und Wohlstand. Liste einfach auf, was für dich erreichbar ist.
 
 - #monetary_rcs
 
 @wumm_explanation
-title: What does this include?
+title: Was gehört dazu?
 max-visits: 1
 tags: monetary_rcs
 
-Me: What does this include?
+Me: Was gehört dazu?
 
-Facilyn: The monetary resources include cash, savings, a credit you could take if needed, or crowdsourcing, etc. And it would almost always include money that could be generated from the physical assets listed in your resource base. 
+Facilyn: Zu den monetären Ressourcen gehören Bargeld, Ersparnisse, ein Kredit, den du bei Bedarf aufnehmen könntest, Crowdsourcing und Ähnliches. Fast immer gehört auch Geld dazu, das sich aus den physischen Vermögenswerten deiner Ressourcenbasis erwirtschaften ließe. 
 
 - #monetary_rcs
 
 # Individual
 
 @wumm_ind_rural
-title: Savings and income from produce
+title: Ersparnisse und Einkommen aus Erzeugnissen
 view-if: part-of = "individual"
 on-arrival: wum-money = "Savings and income from produce"
 go-to: 13_qol_intro
 tags: monetary_rcs
 
-Me: Savings and income from produce.
+Me: Ersparnisse und Einkommen aus Erzeugnissen.
 
 @wumm_ind_urban
-title: Salary and savings
+title: Gehalt und Ersparnisse
 view-if: part-of = "individual"
 on-arrival: wum-money = "Salary and savings"
 go-to: 13_qol_intro
 tags: monetary_rcs
 
-Me: Salary and savings.
+Me: Gehalt und Ersparnisse.
 
 @wumm_ind_nomad
-title: Savings and freelance income
+title: Ersparnisse und freiberufliches Einkommen
 view-if: part-of = "individual"
 on-arrival: wum-money = "Savings and freelance income"
 go-to: 13_qol_intro
 tags: monetary_rcs
 
-Me: Savings and freelance income.
+Me: Ersparnisse und freiberufliches Einkommen.
 
 @wumm_ind_student
-title: Some cash or savings
+title: Etwas Bargeld oder Ersparnisse
 view-if: part-of = "individual"
 on-arrival: wum-money = "Some cash or savings"
 go-to: 13_qol_intro
 tags: monetary_rcs
 
-Me: Some cash or savings.
+Me: Etwas Bargeld oder Ersparnisse.
 
 # Group
 
 @wumm_grp_commune
-title: Shared treasury and member contributions
+title: Gemeinsame Kasse und Beiträge der Mitglieder
 view-if: part-of = "group"
 on-arrival: wum-money = "Shared treasury and member contributions"
 go-to: 13_qol_intro
 tags: monetary_rcs
 
-Me: Shared treasury and member contributions.
+Me: Gemeinsame Kasse und Beiträge der Mitglieder.
 
 @wumm_grp_family_biz
-title: Business revenue and family savings
+title: Geschäftseinnahmen und Ersparnisse der Familie
 view-if: part-of = "group"
 on-arrival: wum-money = "Business revenue and family savings"
 go-to: 13_qol_intro
 tags: monetary_rcs
 
-Me: Business revenue and family savings.
+Me: Geschäftseinnahmen und Ersparnisse der Familie.
 
 @wumm_grp_urban_col
-title: Rent contributions and project grants
+title: Mietbeiträge und Projektförderungen
 view-if: part-of = "group"
 on-arrival: wum-money = "Rent contributions and project grants"
 go-to: 13_qol_intro
 tags: monetary_rcs
 
-Me: Rent contributions and project grants.
+Me: Mietbeiträge und Projektförderungen.
 
 # Agriculture
 
 @wumm_agr_farm
-title: Operating funds and crop revenue
+title: Betriebsmittel und Erlöse aus Ernten
 view-if: sector = "agriculture"
 on-arrival: wum-money = "Operating funds and crop revenue"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Operating funds and crop revenue.
+Me: Betriebsmittel und Erlöse aus Ernten.
 
 @wumm_agr_coop
-title: Sales revenue, member fees and potential loans
+title: Umsatzerlöse, Mitgliedsbeiträge und mögliche Kredite
 view-if: sector = "agriculture"
 on-arrival: wum-money = "Sales revenue, member fees and potential loans"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Sales revenue, member fees and potential loans.
+Me: Umsatzerlöse, Mitgliedsbeiträge und mögliche Kredite.
 
 @wumm_agr_ranch
-title: Livestock sales and land lease income
+title: Erlöse aus Viehverkäufen und Pachteinnahmen
 view-if: sector = "agriculture"
 on-arrival: wum-money = "Livestock sales and land lease income"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Livestock sales and land lease income.
+Me: Erlöse aus Viehverkäufen und Pachteinnahmen.
 
 # Business
 
 @wumm_bus_store
-title: Working capital and revenue streams
+title: Betriebskapital und Einnahmequellen
 view-if: sector = "business"
 on-arrival: wum-money = "Working capital and revenue streams"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Working capital and revenue streams.
+Me: Betriebskapital und Einnahmequellen.
 
 @wumm_bus_insurance
-title: Premium income and reserve funds
+title: Prämieneinnahmen und Rücklagen
 view-if: sector = "business"
 on-arrival: wum-money = "Premium income and reserve funds"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Premium income and reserve funds.
+Me: Prämieneinnahmen und Rücklagen.
 
 @wumm_bus_hospitality
-title: Room revenue and food sales
+title: Zimmerumsatz und Verkauf von Speisen
 view-if: sector = "business"
 on-arrival: wum-money = "Room revenue and food sales"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Room revenue and food sales.
+Me: Zimmerumsatz und Verkauf von Speisen.
 
 @wumm_bus_company
-title: Client fees and investment capital
+title: Kundengebühren und Investitionskapital
 view-if: sector = "business"
 on-arrival: wum-money = "Client fees and investment capital"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Client fees and investment capital.
+Me: Kundengebühren und Investitionskapital.
 
 # Culture
 
 @wumm_cul_arts
-title: Grants and donations
+title: Fördergelder und Spenden
 view-if: sector = "culture"
 on-arrival: wum-money = "Grants and donations"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Grants and donations.
+Me: Fördergelder und Spenden.
 
 @wumm_cul_heritage
-title: Heritage funding and visitor fees
+title: Denkmalschutzförderung und Eintrittsgelder
 view-if: sector = "culture"
 on-arrival: wum-money = "Heritage funding and visitor fees"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Heritage funding and visitor fees.
+Me: Denkmalschutzförderung und Eintrittsgelder.
 
 @wumm_cul_newsroom
-title: Advertising revenue and subscriptions
+title: Werbeeinnahmen und Abonnements
 view-if: sector = "culture"
 on-arrival: wum-money = "Advertising revenue and subscriptions"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Advertising revenue and subscriptions.
+Me: Werbeeinnahmen und Abonnements.
 
 # Education
 
 @wumm_edu_kindergarten
-title: Kindergarten budget and early childhood funding
+title: Kita-Budget und Förderung der Frühpädagogik
 view-if: sector = "education"
 on-arrival: wum-money = "Kindergarten budget and early childhood funding"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Kindergarten budget and early childhood funding.
+Me: Kita-Budget und Förderung der Frühpädagogik.
 
 @wumm_edu_school
-title: Government funding and tuition fees
+title: Staatliche Finanzierung und Studiengebühren
 view-if: sector = "education"
 on-arrival: wum-money = "Government funding and tuition fees"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Government funding and tuition fees.
+Me: Staatliche Finanzierung und Studiengebühren.
 
 @wumm_edu_university
-title: University endowment and research grants
+title: Stiftungsvermögen der Universität und Forschungsförderungen
 view-if: sector = "education"
 on-arrival: wum-money = "University endowment and research grants"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: University endowment and research grants.
+Me: Stiftungsvermögen der Universität und Forschungsförderungen.
 
 # Industry
 
 @wumm_ind_factory
-title: Operating capital and investment funds
+title: Betriebskapital und Investitionsfonds
 view-if: sector = "industry"
 on-arrival: wum-money = "Operating capital and investment funds"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Operating capital and investment funds.
+Me: Betriebskapital und Investitionsfonds.
 
 @wumm_ind_construction
-title: Project financing and client payments
+title: Projektfinanzierung und Kundenzahlungen
 view-if: sector = "industry"
 on-arrival: wum-money = "Project financing and client payments"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Project financing and client payments.
+Me: Projektfinanzierung und Kundenzahlungen.
 
 @wumm_ind_logging
-title: Timber revenue and forestry investments
+title: Holzerlöse und Forstinvestitionen
 view-if: sector = "industry"
 on-arrival: wum-money = "Timber revenue and forestry investments"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Timber revenue and forestry investments.
+Me: Holzerlöse und Forstinvestitionen.
 
 # Nonprofit
 
 @wumm_nonprofit_service
-title: Grants and donations
+title: Fördergelder und Spenden
 view-if: sector = "nonprofit"
 on-arrival: wum-money = "Grants and donations"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Grants and donations.
+Me: Fördergelder und Spenden.
 
 @wumm_nonprofit_advocacy
-title: Foundation grants and campaign contributions
+title: Stiftungsförderungen und Kampagnenspenden
 view-if: sector = "nonprofit"
 on-arrival: wum-money = "Foundation grants and campaign contributions"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Foundation grants and campaign contributions.
+Me: Stiftungsförderungen und Kampagnenspenden.
 
 @wumm_nonprofit_climate
-title: Environmental grants and conservation funding
+title: Umweltförderungen und Naturschutzmittel
 view-if: sector = "nonprofit"
 on-arrival: wum-money = "Environmental grants and conservation funding"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Environmental grants and conservation funding.
+Me: Umweltförderungen und Naturschutzmittel.
 
 # Public service
 
 @wumm_pub_transport
-title: Ticket revenue and government subsidies
+title: Ticketeinnahmen und staatliche Zuschüsse
 view-if: sector = "publicservice"
 on-arrival: wum-money = "Ticket revenue and government subsidies"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Ticket revenue and government subsidies.
+Me: Ticketeinnahmen und staatliche Zuschüsse.
 
 @wumm_pub_health
-title: Government budget and insurance reimbursements
+title: Staatlicher Haushalt und Kostenerstattungen
 view-if: sector = "publicservice"
 on-arrival: wum-money = "Government budget and insurance reimbursements"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Government budget and insurance reimbursements.
+Me: Staatlicher Haushalt und Kostenerstattungen.
 
 @wumm_pub_service
-title: Government budget and public service funding
+title: Staatlicher Haushalt und Finanzierung öffentlicher Dienste
 view-if: sector = "publicservice"
 on-arrival: wum-money = "Government budget and public service funding"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Government budget and public service funding.
+Me: Staatlicher Haushalt und Finanzierung öffentlicher Dienste.
 
 @wumm_pub_parks
-title: Conservation budget and park fees
+title: Naturschutzbudget und Parkgebühren
 view-if: sector = "publicservice"
 on-arrival: wum-money = "Conservation budget and park fees"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Conservation budget and park fees.
+Me: Naturschutzbudget und Parkgebühren.
 
 # Policymaking
 
 @wumm_pol_policy
-title: National budget and treasury funds
+title: Staatshaushalt und Mittel der Staatskasse
 view-if: sector = "policymaking"
 on-arrival: wum-money = "National budget and treasury funds"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: National budget and treasury funds.
+Me: Staatshaushalt und Mittel der Staatskasse.
 
 @wumm_pol_city
-title: Municipal budget and local taxes
+title: Kommunalhaushalt und lokale Steuern
 view-if: sector = "policymaking"
 on-arrival: wum-money = "Municipal budget and local taxes"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Municipal budget and local taxes.
+Me: Kommunalhaushalt und lokale Steuern.
 
 @wumm_pol_intl
-title: Foreign affairs budget and diplomatic funding
+title: Budget für Auswärtiges und diplomatische Mittel
 view-if: sector = "policymaking"
 on-arrival: wum-money = "Foreign affairs budget and diplomatic funding"
 go-to: 12_statement_of_purpose
 tags: monetary_rcs
 
-Me: Foreign affairs budget and diplomatic funding.
+Me: Budget für Auswärtiges und diplomatische Mittel.

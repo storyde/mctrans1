@@ -1,38 +1,38 @@
-title: Finalize my decision
+title: Meine Entscheidung abschließen
 tags: revisit_skips
 
-Me: Finalize my decision.
+Me: Meine Entscheidung abschließen.
 
-Facilyn: Congratulations! You've now experienced the complete Holistic Management framework. You've defined your whole, created your quality of life statement, described your future resource base, and learned to apply all seven context checks.
+Facilyn: Glückwunsch! Du hast jetzt das vollständige Holistic-Management-Framework erlebt. Du hast dein Ganzes definiert, dein Lebensqualitäts-Statement erstellt, deine zukünftige Ressourcenbasis beschrieben und gelernt, alle sieben Kontextfragen anzuwenden.
 
-Facilyn: This framework will serve you well, use it wisely, share it generously, and remember that every decision is an opportunity to move toward the future you envision.
+Facilyn: Dieses Framework wird dir gute Dienste leisten: Nutze es weise, teile es großzügig – und denk daran, dass jede Entscheidung eine Gelegenheit ist, dich in Richtung der Zukunft zu bewegen, die du dir vorstellst.
 
-Facilyn: And remember, when managing complexity, conditions always change and what seems right today may still fail tomorrow — so begin by assuming you're wrong. Monitor your actions, correct and replan. This is doubly vital when your actions touch the land.
+Facilyn: Und denk daran: Beim Umgang mit Komplexität ändern sich Bedingungen ständig, und was sich heute richtig anfühlt, kann morgen trotzdem scheitern – also beginne mit der Annahme, dass du falsch liegst. Beobachte deine Handlungen, korrigiere und plane neu. Das ist doppelt wichtig, wenn deine Handlungen das Land berühren.
 
-You and Facilyn talk quietly as the storm outside runs its course. When it finally settles, and you prepare to leave the teahouse, she looks up and says:
+Du und Facilyn redet leise, während der Sturm draußen tobt. Als er sich schließlich legt und du dich darauf vorbereitest, das Teehaus zu verlassen, blickt sie auf und sagt:
 
-Facilyn: I really enjoyed our time together. But this is only the beginning. When we meet again, I’d love to explore how we might design a regenerative economy aligned with life — or even learn how to calm these dust storms.
+Facilyn: Ich habe unsere Zeit sehr genossen. Aber das ist erst der Anfang. Wenn wir uns wiedersehen, würde ich gern erkunden, wie wir eine regenerative, am Leben ausgerichtete Wirtschaft gestalten könnten – oder sogar lernen, wie man diese Staubstürme beruhigt.
 
 - #final_choices
 
 @need_resources
-title: I need resources for continued learning
+title: Ich brauche Ressourcen zum Weiterlernen
 tags: final_choices
 
-Me: I need resources for continued learning.
+Me: Ich brauche Ressourcen zum Weiterlernen.
 
-Facilyn: The Savory Institute offers extensive resources, training programs, and a global community of practitioners. Local Holistic Management groups exist in many regions. Books, online courses, and workshops can deepen your understanding.
+Facilyn: Das Savory Institute bietet umfangreiche Ressourcen, Trainingsprogramme und eine weltweite Gemeinschaft von Praktizierenden. Lokale Holistic-Management-Gruppen gibt es in vielen Regionen. Bücher, Onlinekurse und Workshops können dein Verständnis vertiefen.
 
-Facilyn: Most importantly, practice using the framework regularly. Start with small decisions and work up to larger ones as you become more comfortable with the process.
+Facilyn: Am wichtigsten ist: Übe die Anwendung des Frameworks regelmäßig. Beginne mit kleinen Entscheidungen und arbeite dich zu größeren vor, sobald du dich mit dem Prozess vertrauter fühlst.
 
-A librarian robot wheels by carrying a stack of books on sustainable systems, apparently on its way to update the teahouse's resource collection with the latest thinking on regenerative practices.
+Ein Bibliotheksroboter rollt vorbei und trägt einen Stapel Bücher über nachhaltige Systeme – offenbar, um die Sammlung des Teehauses mit den neuesten Gedanken zu regenerativen Praktiken zu aktualisieren.
 
 @start_over
-title: I'd like to start the framework from the beginning
+title: Ich möchte das Framework von vorn beginnen
 game-over: true
 tags: final_choices
 
-Me: I'd like to start the framework from the beginning.
+Me: Ich möchte das Framework von vorn beginnen.
 
 Javascript: {! <script>
 if (

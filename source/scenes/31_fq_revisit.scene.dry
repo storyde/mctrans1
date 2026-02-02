@@ -1,108 +1,108 @@
-title: Revisit Filter Questions
+title: Filterfragen erneut prüfen
 
-Facilyn: If you skipped any filter questions, you can revisit them now. Otherwise, you can finalize your decision.
+Facilyn: Wenn du Filterfragen übersprungen hast, kannst du sie jetzt erneut prüfen. Andernfalls kannst du deine Entscheidung abschließen.
 
 - #revisit_skips
 
 @revisit_cause
-title: Revisit Cause and Effect Check
+title: Ursache-und-Wirkung-Frage erneut prüfen
 view-if: fltr-cause = "" or fltr-cause = "skip" or fltr-cause = 0
 tags: revisit_skips
 
-Me: Revisit Cause and Effect Check.
+Me: Ursache-und-Wirkung-Frage erneut prüfen.
 
-Facilyn: "Does this action address the root cause of the problem?"
+Facilyn: „Behandelt diese Maßnahme die eigentliche Ursache des Problems?“
 
 - #cause_effect
 
 @revisit_weak_link
-title: Revisit the Weak Link Checks
+title: Schwächste-Verbindung-Fragen erneut prüfen
 view-if: wk-social = "Skip" or wl-biological = "Skip" or wl-financial = "Skip"
 tags: revisit_skips
 
-Me: Revisit the Weak Link Checks.
+Me: Schwächste-Verbindung-Fragen erneut prüfen.
 
-Facilyn: Which type of weak link would you like to check?
+Facilyn: Welche Art von schwächster Verbindung möchtest du prüfen?
 
 - #weak_links
 
 @revisit_marginal
-title: Revisit Marginal Reaction Check
+title: Grenznutzen-Frage erneut prüfen
 view-if: fltr-marginal = "skip"
 tags: revisit_skips
 
-Me: Revisit Marginal Reaction Check.
+Me: Grenznutzen-Frage erneut prüfen.
 
-Facilyn: "Which action will provide the greatest return toward the goal for each additional unit of money or time invested?"
+Facilyn: „Welche Maßnahme bringt im Hinblick auf das Ziel für jede zusätzlich investierte Geld- oder Zeiteinheit den größten Nutzen?“
 
 - #marginal_reaction
 
 @revisit_gross_profit
-title: Revisit Gross Profit Analysis
+title: Rohgewinnanalyse erneut prüfen
 view-if: gp-status = "skip"
 tags: revisit_skips
 
-Me: Revisit Gross Profit Analysis.
+Me: Rohgewinnanalyse erneut prüfen.
 
-Facilyn: "Which enterprises contribute the most to covering the overheads of the business?"
+Facilyn: „Welche Unternehmensbereiche tragen am meisten zur Deckung der Gemeinkosten bei?“
 
 - #gross_profit
 
 @revisit_em_source
-title: Revisit Energy/Money Source
+title: Energie-/Geldquelle erneut prüfen
 view-if: em-source = "skip"
 tags: revisit_skips
 
-Me: Revisit energy/money source.
+Me: Energie-/Geldquelle erneut prüfen.
 
-Facilyn: "Is the energy or money to be used in this action derived from the most appropriate source in terms of our holistic context?"
+Facilyn: „Stammt die Energie oder das Geld für diese Maßnahme vor dem Hintergrund unseres holistischen Kontexts aus der sinnvollsten Quelle?“
 
 - #em_source
 
 @revisit_em_use
-title: Revisit Energy/Money use
+title: Energie-/Geldverwendung erneut prüfen
 view-if: em-use = "skip"
 tags: revisit_skips
 
-Me: Revisit energy/money use.
+Me: Energie-/Geldverwendung erneut prüfen.
 
-Facilyn: "Will the way in which the energy or money is used be in line with our holistic context?"
+Facilyn: „Ist die Art und Weise, wie die Energie oder das Geld eingesetzt wird, mit unserem holistischen Kontext vereinbar?“
 
 - #em_use
 
 @revisit_sustainability_social
-title: Revisit the social sustainability check
+title: Soziale Nachhaltigkeitsfrage erneut prüfen
 view-if: sus-behavior = "skip"
 tags: revisit_skips
 
-Me: Revisit the social Sustainability Check.
+Me: Soziale Nachhaltigkeitsfrage erneut prüfen.
 
-Facilyn: "If we take this action will it lead toward or away from the future resource base described in our holistic context?"
+Facilyn: „Wird diese Maßnahme in die Richtung der im holistischen Kontext beschriebenen zukünftigen Ressourcenbasis führen – oder eher weg davon?“
 
-Facilyn: Will your **Behavior** shape trust and relationships?
+Facilyn: Wird dein **Verhalten** Vertrauen und Beziehungen prägen?
 
 - #sus_behavior
 
 @revisit_sustainability_environment
-title: Revisit the environmental sustainability check
+title: Ökologische Nachhaltigkeitsfrage erneut prüfen
 view-if: sus-environment = "skip"
 tags: revisit_skips
 
-Me: Revisit the environmental Sustainability Check.
+Me: Ökologische Nachhaltigkeitsfrage erneut prüfen.
 
-Facilyn: "If we take this action will it lead toward or away from the future resource base described in our holistic context?"
+Facilyn: „Wird diese Maßnahme in die Richtung der im holistischen Kontext beschriebenen zukünftigen Ressourcenbasis führen – oder eher weg davon?“
 
-Facilyn: Will your action lead toward or away from the future landscape described in our holistic context?
+Facilyn: Führt deine Maßnahme hin zu der zukünftigen Landschaft, die im holistischen Kontext beschrieben ist – oder weg davon?
 
 - #sus_environment
 
 @revisit_gut_feel
-title: Revisit Gut Feel Check
+title: Bauchgefühl-Frage erneut prüfen
 view-if: gut-status = "skip"
 tags: revisit_skips
 
-Me: Revisit Gut Feel Check.
+Me: Bauchgefühl-Frage erneut prüfen.
 
-Facilyn: "How do we feel about this action now? Will it lead to the quality of life we desire? Will it adversely affect the lives of others?"
+Facilyn: „Wie fühle ich mich jetzt mit dieser Maßnahme? Wird sie zu der von mir gewünschten Lebensqualität führen? Wird sie sich negativ auf das Leben anderer Personen auswirken?“
 
 - #gut_feel

@@ -1,52 +1,52 @@
-﻿title: Cause and Effect Check
-subtitle: Addressing Root Causes
+title: Prüfung: Ursache und Wirkung
+subtitle: Ursachen statt Symptome
 new-page: true
 
-Facilyn: The first context check helps you avoid treating symptoms while ignoring underlying causes by asking:
+Facilyn: Die erste Kontextfrage hilft dir, nicht nur Symptome zu behandeln und dabei die zugrunde liegenden Ursachen zu ignorieren. Sie lautet:
 
-Facilyn: "Does this action address the root cause of the problem?"
+Facilyn: „Behandelt diese Maßnahme die eigentliche Ursache des Problems?“
 
 - #cause_effect
 
 @fqce_clarification
-title: I need help distinguishing cause from symptom
+title: Ich brauche Hilfe, Ursache von Symptom zu unterscheiden
 tags: cause_effect
 
-Me: I need help distinguishing cause from symptom.
+Me: Ich brauche Hilfe, Ursache von Symptom zu unterscheiden.
 
-Facilyn: Think of it this way — symptoms are what you observe or experience, while causes are what creates those symptoms. For example, if robots keep malfunctioning, the symptom is broken robots, but the cause might be poor maintenance or inadequate training.
+Facilyn: Denk so darüber nach: Symptome sind das, was du beobachtest oder erlebst – Ursachen sind das, was diese Symptome hervorbringt. Wenn Roboter zum Beispiel ständig ausfallen, ist das Symptom: kaputte Roboter. Die Ursache könnte aber mangelnde Wartung oder unzureichende Schulung sein.
 
-Facilyn: After finding a cause, you might need to ask yourself multiple times: "Well, and what is the cause of that?" to really get to the root of the problem.
+Facilyn: Nachdem du eine Ursache gefunden hast, musst du dich vielleicht mehrmals fragen: „Und was ist die Ursache davon?“, um wirklich zum Kern des Problems vorzudringen.
 
-A repair robot wheels past the teahouse, methodically fixing a street lamp that keeps flickering, apparently unaware that the real problem is the faulty electrical connection three blocks away.
+Ein Reparaturroboter rollt am Teehaus vorbei und repariert methodisch eine Straßenlampe, die ständig flackert – offenbar ohne zu merken, dass das eigentliche Problem die defekte Stromverbindung drei Häuserblocks weiter ist.
 
 - #cause_effect
 
 @fqce_pass
-title: Yes, it addresses the root cause
+title: Ja, sie behandelt die Ursache
 on-arrival: fltr-cause = "addresses root cause"
 go-to: 24_fq_weak_link
 tags: cause_effect
 
-Me: Yes, it addresses the root cause.
+Me: Ja, sie behandelt die Ursache.
 
-Facilyn: Excellent. You've identified that your action targets the fundamental issue, not just its symptoms. This gives your decision a solid foundation.
+Facilyn: Hervorragend. Du hast erkannt, dass deine Maßnahme das grundlegende Problem angeht – nicht nur seine Symptome. Das gibt deiner Entscheidung ein solides Fundament.
 
 @fqce_fail
-title: No, it only treats symptoms
+title: Nein, sie behandelt nur Symptome
 on-arrival: fltr-cause = "treats symptoms"
 go-to: 24_fq_weak_link
 tags: cause_effect
 
-Me: No, it only treats symptoms.
+Me: Nein, sie behandelt nur Symptome.
 
-Facilyn: An important realization. Treating symptoms might provide temporary relief, but the underlying problem will likely resurface. Consider how you might address the deeper cause instead.
+Facilyn: Eine wichtige Erkenntnis. Symptome zu behandeln kann kurzfristig Erleichterung bringen, aber das zugrunde liegende Problem wird wahrscheinlich wieder auftauchen. Überlege stattdessen, wie du die tiefere Ursache angehen kannst.
 
 @fqce_skip
-title: Not sure, let me review this check later
+title: Nicht sicher – ich schaue mir diese Frage später nochmal an
 go-to: 24_fq_weak_link
 tags: cause_effect
 
-Me: Not sure, let me review this check later.
+Me: Nicht sicher – ich schaue mir diese Frage später nochmal an.
 
-Facilyn: If you finish the checks and still lack a clear answer, circle back here. Revisiting skipped checks often provides the missing piece of the puzzle. 
+Facilyn: Wenn du alle Fragen durchgegangen bist und dir immer noch eine klare Antwort fehlt, komm hierher zurück. Übersprungene Fragen später erneut zu betrachten, liefert oft das fehlende Puzzleteil. 

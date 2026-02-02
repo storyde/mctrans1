@@ -1,26 +1,26 @@
-﻿title: Statement of Purpose
-subtitle: Defining what our organisation provides
+title: Daseinszweck
+subtitle: Definiert, was unsere Organisation leistet
 
-Facilyn: Next, we need a Statement of Purpose of your organisation. So, how would you describe your organisation's purpose?
+Facilyn: Als Nächstes brauchen wir den Daseinszweck deiner Organisation. Wie würdest du den Zweck deiner Organisation beschreiben?
 
 - #st_purpose
 
 @stmp_explanation
-title: I am not sure what a Statement of Purpose is.
+title: Ich bin mir nicht sicher, was ein Daseinszweck ist.
 max-visits: 1
 tags: st_purpose
 
-Me: I am not sure what a Statement of Purpose is.
+Me: Ich bin mir nicht sicher, was ein Daseinszweck ist.
 
-Facilyn: A Statement of Purpose captures the positive change your organisation creates. It's the "why" behind everything you do.
+Facilyn: Ein Daseinszweck beschreibt die positive Veränderung, die deine Organisation bewirkt. Er ist das „Warum“ hinter allem, was ihr tut.
 
-Facilyn: For example, a hospital's purpose isn't "To make money from sick people" — instead, it can be described like this: "To heal and restore health."
+Facilyn: Zum Beispiel ist der Zweck eines Krankenhauses nicht „Mit kranken Menschen Geld verdienen“ – sondern eher: „Heilen und Gesundheit wiederherstellen.“
 
-Facilyn: A factory's purpose isn't just "To make things" — it might be "To create tools that improve people's lives" or "To transform raw materials into useful products."
+Facilyn: Auch der Zweck einer Fabrik ist nicht einfach „Dinge herstellen“ – sondern vielleicht „Werkzeuge schaffen, die das Leben der Menschen verbessern“ oder „Rohstoffe in nützliche Produkte verwandeln“.
 
-Facilyn: Which purpose fits your organisation best?
+Facilyn: Welcher Zweck passt am besten zu deiner Organisation?
 
-Out in the harbour, a cargo drone hovers above the docks, job done, purpose pending.
+Draußen im Hafen schwebt eine Frachtdrohne über den Docks: Auftrag erledigt, Zweck noch offen.
 
 - #st_purpose
 
@@ -29,249 +29,249 @@ Out in the harbour, a cargo drone hovers above the docks, job done, purpose pend
 # Agriculture
 
 @stmp_agr_farm
-title: We produce food to nourish communities
+title: Wir produzieren Lebensmittel, um Gemeinschaften zu ernähren
 view-if: sector = "agriculture"
 on-arrival: st-purpose = "We produce food to nourish communities"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We produce food to nourish communities.
+Me: Wir produzieren Lebensmittel, um Gemeinschaften zu ernähren.
 
 @stmp_agr_coop
-title: We support farmers and strengthen rural communities
+title: Wir unterstützen Landwirte und stärken ländliche Gemeinschaften
 view-if: sector = "agriculture"
 on-arrival: st-purpose = "We support farmers and strengthen rural communities"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We support farmers and strengthen rural communities.
+Me: Wir unterstützen Landwirte und stärken ländliche Gemeinschaften.
 
 @stmp_agr_ranch
-title: We steward the land for future generations
+title: Wir bewahren das Land für kommende Generationen
 view-if: sector = "agriculture"
 on-arrival: st-purpose = "We steward the land for future generations"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We steward the land for future generations.
+Me: Wir bewahren das Land für kommende Generationen.
 
 # Business
 
 @stmp_bus_store
-title: We make life more convenient and efficient
+title: Wir machen das Leben bequemer und effizienter
 view-if: sector = "business"
 on-arrival: st-purpose = "We make life more convenient and efficient"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We make life more convenient and efficient.
+Me: Wir machen das Leben bequemer und effizienter.
 
 @stmp_bus_insurance
-title: We protect people and organisations from financial risk so they can thrive
+title: Wir schützen Menschen und Organisationen vor finanziellen Risiken, damit sie gedeihen können
 view-if: sector = "business"
 on-arrival: st-purpose = "We protect people and organisations from financial risk so they can thrive"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We protect people and organisations from financial risk so they can thrive.
+Me: Wir schützen Menschen und Organisationen vor finanziellen Risiken, damit sie gedeihen können.
 
 @stmp_bus_hospitality
-title: We provide welcoming spaces and experiences for travellers
+title: Wir bieten Reisenden einladende Orte und Erlebnisse
 view-if: sector = "business"
 on-arrival: st-purpose = "We provide welcoming spaces and experiences for travellers"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We provide welcoming spaces and experiences for travellers.
+Me: Wir bieten Reisenden einladende Orte und Erlebnisse.
 
 @stmp_bus_company
-title: We provide value through our professional services and products
+title: Wir schaffen Wert durch unsere professionellen Dienstleistungen und Produkte
 view-if: sector = "business"
 on-arrival: st-purpose = "We provide value through our professional services and products"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We provide value through our professional services and products.
+Me: Wir schaffen Wert durch unsere professionellen Dienstleistungen und Produkte.
 
 # Culture
 
 @stmp_cul_arts
-title: We foster cultural expression and creativity
+title: Wir fördern kulturellen Ausdruck und Kreativität
 view-if: sector = "culture"
 on-arrival: st-purpose = "We foster cultural expression and creativity"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We foster cultural expression and creativity.
+Me: Wir fördern kulturellen Ausdruck und Kreativität.
 
 @stmp_cul_heritage
-title: We preserve and share cultural heritage
+title: Wir bewahren und teilen kulturelles Erbe
 view-if: sector = "culture"
 on-arrival: st-purpose = "We preserve and share cultural heritage"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We preserve and share cultural heritage.
+Me: Wir bewahren und teilen kulturelles Erbe.
 
 @stmp_cul_newsroom
-title: We inform the public with accurate, independent reporting
+title: Wir informieren die Öffentlichkeit mit genauer, unabhängiger Berichterstattung
 view-if: sector = "culture"
 on-arrival: st-purpose = "We inform the public with accurate, independent reporting"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We inform the public with accurate, independent reporting.
+Me: Wir informieren die Öffentlichkeit mit genauer, unabhängiger Berichterstattung.
 
 # Education
 
 @stmp_edu_kindergarten
-title: We provide a safe, nurturing environment where young children can learn and grow
+title: Wir bieten eine sichere, fördernde Umgebung, in der kleine Kinder lernen und wachsen können
 view-if: sector = "education"
 on-arrival: st-purpose = "We provide a safe, nurturing environment where young children can learn and grow"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We provide a safe, nurturing environment where young children can learn and grow.
+Me: Wir bieten eine sichere, fördernde Umgebung, in der kleine Kinder lernen und wachsen können.
 
 @stmp_edu_school
-title: We prepare students for their future and help them reach their potential
+title: Wir bereiten Schülerinnen und Schüler auf ihre Zukunft vor und helfen ihnen, ihr Potenzial zu entfalten
 view-if: sector = "education"
 on-arrival: st-purpose = "We prepare students for their future and help them reach their potential"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We prepare students for their future and help them reach their potential.
+Me: Wir bereiten Schülerinnen und Schüler auf ihre Zukunft vor und helfen ihnen, ihr Potenzial zu entfalten.
 
 @stmp_edu_university
-title: We advance knowledge through research and prepare leaders for tomorrow
+title: Wir erweitern Wissen durch Forschung und bereiten Führungskräfte für morgen vor
 view-if: sector = "education"
 on-arrival: st-purpose = "We advance knowledge through research and prepare leaders for tomorrow"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We advance knowledge through research and prepare leaders for tomorrow.
+Me: Wir erweitern Wissen durch Forschung und bereiten Führungskräfte für morgen vor.
 
 # Industry
 
 @stmp_ind_factory
-title: We make useful products that improve people's lives
+title: Wir stellen nützliche Produkte her, die das Leben der Menschen verbessern
 view-if: sector = "industry"
 on-arrival: st-purpose = "We make useful products that improve people's lives"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We make useful products that improve people's lives.
+Me: Wir stellen nützliche Produkte her, die das Leben der Menschen verbessern.
 
 @stmp_ind_construction
-title: We create safe, durable structures and infrastructure that serve communities
+title: Wir schaffen sichere, langlebige Bauwerke und Infrastruktur, die Gemeinschaften dienen
 view-if: sector = "industry"
 on-arrival: st-purpose = "We create safe, durable structures and infrastructure that serve communities"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We create safe, durable structures and infrastructure that serve communities.
+Me: Wir schaffen sichere, langlebige Bauwerke und Infrastruktur, die Gemeinschaften dienen.
 
 @stmp_ind_logging
-title: We provide timber resources responsibly to meet society's needs
+title: Wir stellen Holzressourcen verantwortungsvoll bereit, um die Bedürfnisse der Gesellschaft zu erfüllen
 view-if: sector = "industry"
 on-arrival: st-purpose = "We provide timber resources responsibly to meet society's needs"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We provide timber resources responsibly to meet society's needs.
+Me: Wir stellen Holzressourcen verantwortungsvoll bereit, um die Bedürfnisse der Gesellschaft zu erfüllen.
 
 # Nonprofit
 
 @stmp_nonprofit_service
-title: We address community needs and social challenges
+title: Wir gehen Gemeinschaftsbedürfnisse und soziale Herausforderungen an
 view-if: sector = "nonprofit"
 on-arrival: st-purpose = "We address community needs and social challenges"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We address community needs and social challenges.
+Me: Wir gehen Gemeinschaftsbedürfnisse und soziale Herausforderungen an.
 
 @stmp_nonprofit_advocacy
-title: We advocate for positive change and social justice
+title: Wir setzen uns für positive Veränderungen und soziale Gerechtigkeit ein
 view-if: sector = "nonprofit"
 on-arrival: st-purpose = "We advocate for positive change and social justice"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We advocate for positive change and social justice.
+Me: Wir setzen uns für positive Veränderungen und soziale Gerechtigkeit ein.
 
 @stmp_nonprofit_climate
-title: We protect the environment and fight climate change
+title: Wir schützen die Umwelt und bekämpfen den Klimawandel
 view-if: sector = "nonprofit"
 on-arrival: st-purpose = "We protect the environment and fight climate change"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We protect the environment and fight climate change.
+Me: Wir schützen die Umwelt und bekämpfen den Klimawandel.
 
 # Public service
 
 @stmp_pub_transport
-title: We connect communities with safe and accessible transport
+title: Wir verbinden Gemeinschaften mit sicherem und zugänglichem Transport
 view-if: sector = "publicservice"
 on-arrival: st-purpose = "We connect communities with safe and accessible transport"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We connect communities with safe and accessible transport.
+Me: Wir verbinden Gemeinschaften mit sicherem und zugänglichem Transport.
 
 @stmp_pub_health
-title: We heal, prevent illness, and restore health
+title: Wir heilen, beugen Krankheiten vor und stellen Gesundheit wieder her
 view-if: sector = "publicservice"
 on-arrival: st-purpose = "We heal, prevent illness, and restore health"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We heal, prevent illness, and restore health.
+Me: Wir heilen, beugen Krankheiten vor und stellen Gesundheit wieder her.
 
 @stmp_pub_service
-title: We serve the public interest and common good
+title: Wir dienen dem öffentlichen Interesse und dem Gemeinwohl
 view-if: sector = "publicservice"
 on-arrival: st-purpose = "We serve the public interest and common good"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We serve the public interest and common good.
+Me: Wir dienen dem öffentlichen Interesse und dem Gemeinwohl.
 
 @stmp_pub_parks
-title: We protect and share our natural heritage for current and future generations
+title: Wir schützen und teilen unser Naturerbe für heutige und künftige Generationen
 view-if: sector = "publicservice"
 on-arrival: st-purpose = "We protect and share our natural heritage for current and future generations"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We protect and share our natural heritage for current and future generations.
+Me: Wir schützen und teilen unser Naturerbe für heutige und künftige Generationen.
 
 # Policymaking
 
 @stmp_pol_policy
-title: We represent citizens and shape public policy for the common good
+title: Wir vertreten Bürgerinnen und Bürger und gestalten Politik fürs Gemeinwohl
 view-if: sector = "policymaking"
 on-arrival: st-purpose = "We represent citizens and shape public policy for the common good"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We represent citizens and shape public policy for the common good.
+Me: Wir vertreten Bürgerinnen und Bürger und gestalten Politik fürs Gemeinwohl.
 
 @stmp_pol_city
-title: We govern local communities and provide municipal services
+title: Wir regieren lokale Gemeinschaften und stellen kommunale Dienstleistungen bereit
 view-if: sector = "policymaking"
 on-arrival: st-purpose = "We govern local communities and provide municipal services"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We govern local communities and provide municipal services.
+Me: Wir regieren lokale Gemeinschaften und stellen kommunale Dienstleistungen bereit.
 
 @stmp_pol_intl
-title: We promote international cooperation and diplomacy
+title: Wir fördern internationale Zusammenarbeit und Diplomatie
 view-if: sector = "policymaking"
 on-arrival: st-purpose = "We promote international cooperation and diplomacy"
 go-to: 13_qol_intro
 tags: st_purpose
 
-Me: We promote international cooperation and diplomacy.
+Me: Wir fördern internationale Zusammenarbeit und Diplomatie.

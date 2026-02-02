@@ -1,21 +1,21 @@
-title: Completed holistic context
+title: Holistischer Kontext abgeschlossen
 new-page: true
 
-Facilyn: Excellent. You now have a complete holistic context — your whole under management, your quality of life statement, and your future resource base description.
+Facilyn: Hervorragend. Du hast jetzt einen vollständigen holistischen Kontext – dein Ganzes unter Management, dein Lebensqualitäts-Statement und die Beschreibung deiner zukünftigen Ressourcenbasis.
 
-Facilyn: Remember, this version is somewhat generic, built from the options you were given. To make it yours, write one [? if part-of != "individual" : together ?] in your own words and ensure every decision maker shares a complete understanding of what each statement means. 
+Facilyn: Denk daran: Diese Version ist noch etwas generisch und aus den vorgegebenen Optionen zusammengesetzt. Damit er wirklich eurer wird, schreibt ihn [? if part-of != "individual" : gemeinsam ?] in euren eigenen Worten – und stellt sicher, dass alle Entscheidungsträger vollständig verstehen, was jede Aussage bedeutet. 
 
-Facilyn: When every decision maker has ownership in it and sees their deepest values reflected, they can commit to it.
+Facilyn: Wenn alle Entscheidungsträger Mitverantwortung dafür tragen und ihre tiefsten Werte darin wiederfinden, können sie sich dazu bekennen.
 
-Facilyn: This holistic context will then serve as your North Star. It is not a goal to be achieved, but a guide for your daily decisions while managing complexity, ensuring you always stay on course. Just like the compass on the ships leaving this harbour.
+Facilyn: Dieser holistische Kontext dient dir dann als Nordstern. Er ist kein Ziel, das erreicht werden muss, sondern ein Leitstern für deine täglichen Entscheidungen beim Umgang mit Komplexität – damit du immer auf Kurs bleibst. Wie der Kompass auf den Schiffen, die diesen Hafen verlassen.
 
-Facilyn: To help you use it effectively, we use seven testing questions. They filter out actions that might look good today but would take you off course tomorrow.
+Facilyn: Damit du ihn wirksam nutzen kannst, verwenden wir sieben Prüf- bzw. Kontextfragen. Sie filtern Handlungen heraus, die heute gut aussehen, dich aber morgen vom Kurs abbringen würden.
 
 - #holtext_complete
 
 @continue_to_checks
-title: Continue to the Seven Context Checks
+title: Weiter zu den sieben Kontextfragen
 go-to: 22_fq_intro
 tags: holtext_complete
 
-Me: Continue to the Seven Context Checks.
+Me: Weiter zu den sieben Kontextfragen.

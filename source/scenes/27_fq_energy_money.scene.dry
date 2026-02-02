@@ -1,100 +1,100 @@
-﻿title: Energy/Money Source Check
-subtitle: Sustainable Resource Management
+title: Prüfung: Energie-/Geldquelle
+subtitle: Nachhaltiges Ressourcenmanagement
 new-page: true
 
-Facilyn: The next check applies to both energy and money and has two parts. 
+Facilyn: Die nächste Frage gilt sowohl für Energie als auch für Geld und besteht aus zwei Teilen. 
 
-Facilyn: The first part examines the source:
+Facilyn: Der erste Teil betrachtet die Quelle:
 
-Facilyn: "Is the energy or money to be used in this action derived from the most appropriate source in terms of our holistic context?"
+Facilyn: „Stammt die Energie oder das Geld für diese Maßnahme vor dem Hintergrund unseres holistischen Kontexts aus der sinnvollsten Quelle?“
 
 - #em_source
 
 # Source
 
 @fqem_source_clarification
-title: I need help understanding this check
+title: Ich brauche Hilfe, diese Frage zu verstehen
 tags: em_source
 
-Me: I need help understanding this check.
+Me: Ich brauche Hilfe, diese Frage zu verstehen.
 
-Facilyn: Is it unlimited/renewable/internal (appropriate) or limited/polluting/external with strings attached (inappropriate)?
+Facilyn: Ist sie unbegrenzt/erneuerbar/intern (sinnvoll) oder begrenzt/verschmutzend/extern mit Bedingungen (weniger sinnvoll)?
 
 - #em_source
 
 @fqem_source_pass
-title: The source is appropriate
+title: Die Quelle ist sinnvoll
 on-arrival: em-source = "appropriate"
 go-to: fqem_use_intro
 tags: em_source
 
-Me: The source is appropriate.
+Me: Die Quelle ist sinnvoll.
 
-Facilyn: Good. Using renewable, internal, or non-damaging sources builds resilience.
+Facilyn: Gut. Erneuerbare, interne oder nicht-schädliche Quellen zu nutzen, schafft Widerstandsfähigkeit.
 
 @fqem_source_issues
-title: There are issues with the source
+title: Es gibt Probleme mit der Quelle
 on-arrival: em-source = "issues"
 go-to: fqem_use_intro
 tags: em_source
 
-Me: There are issues with the source.
+Me: Es gibt Probleme mit der Quelle.
 
-Facilyn: Noting this is important. Relying on finite or external sources with strings attached can create vulnerability.
+Facilyn: Das festzuhalten ist wichtig. Sich auf endliche oder externe Quellen mit Auflagen zu verlassen, kann Verwundbarkeit schaffen.
 
 @fqem_source_skip
-title: Skip source check
+title: Quellenfrage überspringen
 on-arrival: em-source = "skip"
 go-to: fqem_use_intro
 tags: em_source
 
-Me: Skip source check.
+Me: Quellenfrage überspringen.
 
 # Use
 
 @fqem_use_intro
-title: Energy/Money Use Check
+title: Prüfung: Verwendung von Energie/Geld
 
-Facilyn: Now the second part of this filter is about the use:
+Facilyn: Der zweite Teil dieses Filters betrifft die Verwendung:
 
-Facilyn: "Will the way in which the energy or money is used be in line with our holistic context?"
+Facilyn: „Ist die Art und Weise, wie die Energie oder das Geld eingesetzt wird, mit unserem holistischen Kontext vereinbar?“
 
 - #em_use
 
 @fqem_use_clarification
-title: I need help understanding this check
+title: Ich brauche Hilfe, diese Frage zu verstehen
 tags: em_use
 
-Me: I need help understanding this check.
+Me: Ich brauche Hilfe, diese Frage zu verstehen.
 
-Facilyn: Is it for infrastructure/cyclical (constructive) or merely consumptive/addictive (potentially destructive)?
+Facilyn: Ist es für Infrastruktur/zyklisch (aufbauend) – oder eher konsumtiv/süchtig machend (potenziell zerstörerisch)?
 
 - #em_use
 
 @fqem_use_pass
-title: The use is appropriate
+title: Die Verwendung ist sinnvoll
 on-arrival: em-use = "appropriate"
 go-to: 28_fq_sustainability
 tags: em_use
 
-Me: The use is appropriate.
+Me: Die Verwendung ist sinnvoll.
 
-Facilyn: Excellent. Investing in infrastructure or cyclical growth creates lasting value.
+Facilyn: Hervorragend. In Infrastruktur oder zyklisches Wachstum zu investieren schafft bleibenden Wert.
 
 @fqem_use_issues
-title: There are issues with the use
+title: Es gibt Probleme mit der Verwendung
 on-arrival: em-use = "issues"
 go-to: 28_fq_sustainability
 tags: em_use
 
-Me: There are issues with the use.
+Me: Es gibt Probleme mit der Verwendung.
 
-Facilyn: Be cautious. Consumptive or addictive uses can drain resources without rebuilding them.
+Facilyn: Sei vorsichtig. Konsumtive oder süchtig machende Verwendungen können Ressourcen aufzehren, ohne sie wieder aufzubauen.
 
 @fqem_use_skip
-title: Skip use check
+title: Verwendungsfrage überspringen
 on-arrival: em-use = "skip"
 go-to: 28_fq_sustainability
 tags: em_use
 
-Me: Skip use check.
+Me: Verwendungsfrage überspringen.

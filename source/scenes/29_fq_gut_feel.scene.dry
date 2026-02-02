@@ -1,51 +1,51 @@
-﻿title: Gut Feel Check
-subtitle: Values-Based Final Assessment
+title: Prüfung: Bauchgefühl
+subtitle: Abschließende Werteprüfung
 new-page: true
 
-Facilyn: The gut feel check builds on the mental picture that has formed after passing through all the other checks. It asks about your feelings and effects on the greater whole:
+Facilyn: Die Bauchgefühl-Frage baut auf dem inneren Bild auf, das sich nach allen anderen Fragen geformt hat. Sie fragt nach deinem Gefühl und nach Auswirkungen auf das größere Ganze:
 
-Facilyn: "How do we feel about this action now? Will it lead to the quality of life we desire? Will it adversely affect the lives of others?"
+Facilyn: „Wie fühle ich mich jetzt mit dieser Maßnahme? Wird sie zu der von mir gewünschten Lebensqualität führen? Wird sie sich negativ auf das Leben anderer Personen auswirken?“
 
 - #gut_feel
 
 @fqgut_clarification
-title: I need help understanding this check
+title: Ich brauche Hilfe, diese Frage zu verstehen
 tags: gut_feel
 
-Me: I need help understanding this check.
+Me: Ich brauche Hilfe, diese Frage zu verstehen.
 
-Facilyn: This check asks about your *intuition* rather than what you *think*. It connects directly to the values in your quality of life statement.
+Facilyn: Diese Frage fragt nach deiner *Intuition* statt nach dem, was du *denkst*. Sie ist direkt mit den Werten in deinem Lebensqualitäts-Statement verbunden.
 
-Facilyn: Even if an action passes all other checks, you might reject it if it doesn't feel right. Conversely, you might proceed with a flawed action if your gut says it's necessary, now knowing the negative consequences and aware you must mitigate the downsides.
+Facilyn: Selbst wenn eine Maßnahme alle anderen Fragen besteht, kannst du sie ablehnen, wenn sie sich nicht richtig anfühlt. Umgekehrt kannst du eine Maßnahme trotz Schwächen wählen, wenn dein Bauchgefühl sagt, dass sie nötig ist – jetzt mit dem Bewusstsein für die negativen Folgen und dafür, dass du die Nachteile abmildern musst.
 
 - #gut_feel
 
 @fqgut_pass
-title: It feels right
+title: Es fühlt sich richtig an
 on-arrival: fltr-gut = "feels right"
 go-to: 30_fq_result
 tags: gut_feel
 
-Me: It feels right.
+Me: Es fühlt sich richtig an.
 
-Facilyn: Excellent. When analysis and intuition align, you can proceed with confidence.
+Facilyn: Hervorragend. Wenn Analyse und Intuition übereinstimmen, kannst du mit Zuversicht handeln.
 
 @fqgut_fail
-title: It feels wrong
+title: Es fühlt sich falsch an
 on-arrival: fltr-gut = "feels wrong"
 go-to: 30_fq_result
 tags: gut_feel
 
-Me: It feels wrong.
+Me: Es fühlt sich falsch an.
 
-Facilyn: Trust that feeling. Your intuition often catches what logic misses.
+Facilyn: Vertraue diesem Gefühl. Deine Intuition erkennt oft, was der Logik entgeht.
 
 @fqgut_mixed
-title: I have mixed feelings
+title: Ich habe gemischte Gefühle
 on-arrival: fltr-gut = "mixed"
 go-to: 30_fq_result
 tags: gut_feel
 
-Me: I have mixed feelings.
+Me: Ich habe gemischte Gefühle.
 
-Facilyn: Mixed feelings often reflect real trade-offs. Weigh the positives against the concerns before deciding.
+Facilyn: Gemischte Gefühle spiegeln oft echte Trade-offs wider. Wäge das Positive gegen die Bedenken ab, bevor du dich entscheidest.

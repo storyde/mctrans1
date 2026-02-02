@@ -1,55 +1,55 @@
-﻿title: Future Resource Base - Environment
-subtitle: Our Future Landscape
+title: Zukünftige Ressourcenbasis – Umwelt
+subtitle: Unsere zukünftige Landschaft
 new-page: true
 
-Facilyn: Now we describe how the land and environment must be far into the future to sustain your quality of life. Even if you don't directly manage land, it's important to describe your surroundings, because you will always need air, water, food and so on.
+Facilyn: Jetzt beschreiben wir, wie Land und Umwelt in ferner Zukunft sein müssen, um deine Lebensqualität zu tragen. Selbst wenn du Land nicht direkt managst, ist es wichtig, deine Umgebung zu beschreiben – denn du wirst immer Luft, Wasser, Nahrung und so weiter brauchen.
 
-Facilyn: We'll think in terms of the four ecosystem processes: water cycle, mineral cycle, community dynamics, and energy flow.
+Facilyn: Wir denken dabei in den vier Ökosystemprozessen: Wasserkreislauf, Mineralstoffkreislauf, Gemeinschaftsdynamik und Energiefluss.
 
 - #environment_aspects
 
 @frbe_clarification
-title: What are the ecosystem processes?
+title: Was sind die Ökosystemprozesse?
 tags: environment_aspects
 
-Me: What are the ecosystem processes?
+Me: Was sind die Ökosystemprozesse?
 
-Facilyn: With that I mean four major processes we can recognize in our environment.
+Facilyn: Damit meine ich vier große Prozesse, die wir in unserer Umwelt erkennen können.
 
-Facilyn: **Water Cycle**: How effectively the land catches and holds rain.
+Facilyn: **Wasserkreislauf**: Wie gut Land Regen einfängt und speichert.
 
-Facilyn: **Mineral Cycle**: How well nutrients circulate through soil and plants.
+Facilyn: **Mineralstoffkreislauf**: Wie gut Nährstoffe durch Boden und Pflanzen zirkulieren.
 
-Facilyn: **Community Dynamics**: How diverse and resilient the community of life is.
+Facilyn: **Gemeinschaftsdynamik**: Wie vielfältig und widerstandsfähig die Lebensgemeinschaft ist.
 
-Facilyn: **Energy Flow**: How much sunlight is captured and turned into life.
+Facilyn: **Energiefluss**: Wie viel Sonnenlicht eingefangen und in Leben verwandelt wird.
 
-Facilyn: You don't need to be a scientist. Just express your need for surroundings that are stable, productive, and healthy — with covered soils, clean water, and thriving biodiversity. Describe them not as they are now, but as they must be to sustain the quality of life that you want for generations.
+Facilyn: Du musst keine Wissenschaftlerin oder kein Wissenschaftler sein. Drücke einfach dein Bedürfnis nach einer Umgebung aus, die stabil, produktiv und gesund ist – mit bedeckten Böden, sauberem Wasser und lebendiger Artenvielfalt. Beschreibe sie nicht so, wie sie heute ist, sondern so, wie sie sein muss, um die Lebensqualität zu tragen, die du dir über Generationen wünschst.
 
-A gardening robot tends to the plants outside the teahouse, carefully measuring soil moisture and adjusting its watering pattern with the precision of a master horticulturist.
+Ein Gartenroboter pflegt die Pflanzen außerhalb des Teehauses, misst sorgfältig die Bodenfeuchte und passt sein Gießmuster mit der Präzision einer Meistergärtnerin bzw. eines Meistergärtners an.
 
 - #environment_aspects
 
 @frbe_detailed_scientific
-title: Maximized water and mineral cycles, optimized energy flow, and rich biodiversity
+title: Maximierte Wasser- und Mineralstoffkreisläufe, optimierter Energiefluss und reiche Biodiversität
 on-arrival: frb-environment = "Maximized water and mineral cycles, optimized energy flow, and rich biodiversity"
 go-to: 21_holtext
 tags: environment_aspects
 
-Me: Maximized water and mineral cycles, optimized energy flow, and rich biodiversity.
+Me: Maximierte Wasser- und Mineralstoffkreisläufe, optimierter Energiefluss und reiche Biodiversität.
 
 @frbe_descriptive_visionary
-title: Healthy, biologically diverse land with covered soils and clear, perennial streams
+title: Gesundes, artenreiches Land mit bedeckten Böden und klaren, ganzjährig fließenden Bächen
 on-arrival: frb-environment = "Healthy, biologically diverse land with covered soils and clear, perennial streams"
 go-to: 21_holtext
 tags: environment_aspects
 
-Me: Healthy, biologically diverse land with covered soils and clear, perennial streams.
+Me: Gesundes, artenreiches Land mit bedeckten Böden und klaren, ganzjährig fließenden Bächen.
 
 @frbe_simple_grounded
-title: Stable, productive surroundings with clean water and covered, fertile soils
+title: Stabile, produktive Umgebung mit sauberem Wasser sowie bedeckten, fruchtbaren Böden
 on-arrival: frb-environment = "Stable, productive surroundings with clean water and covered, fertile soils"
 go-to: 21_holtext
 tags: environment_aspects
 
-Me: Stable, productive surroundings with clean water and covered, fertile soils.
+Me: Stabile, produktive Umgebung mit sauberem Wasser sowie bedeckten, fruchtbaren Böden.

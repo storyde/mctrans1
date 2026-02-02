@@ -1,260 +1,260 @@
-title: Define decision-makers
+title: Entscheidungsträger definieren
 view-if: part-of = "org"
 
-Facilyn: Nice.
+Facilyn: Gut.
 
-Facilyn: So, Let's start by defining the decision-makers. Who is making or expected to carry out decisions in your organisation? Are there any other people with veto power over your decisions? 
+Facilyn: Also: Definieren wir zuerst die Entscheidungsträger. Wer trifft in deiner Organisation Entscheidungen – oder soll Entscheidungen umsetzen? Gibt es andere Menschen mit Vetorecht über eure Entscheidungen? 
 
-Facilyn: Try to be inclusive rather than exclusive. 
+Facilyn: Versucht lieber inklusiv als exklusiv zu sein. 
 
 - #decision_makers
 
 # Agriculture
 
 @dmkrs_agr_farm
-title: Farm owners, farm managers and staff.
+title: Hofbesitzer, Betriebsleitung und Mitarbeitende.
 view-if: sector = "agriculture"
 on-arrival: decision-makers = "Farm owners, farm managers and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Farm owners, farm managers and staff.
+Me: Hofbesitzer, Betriebsleitung und Mitarbeitende.
 
 @dmkrs_agr_coop
-title: Cooperative members, staff and board of directors.
+title: Genossenschaftsmitglieder, Mitarbeitende und Vorstand.
 view-if: sector = "agriculture"
 on-arrival: decision-makers = "Cooperative members, staff and board of directors."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Cooperative members, staff and board of directors.
+Me: Genossenschaftsmitglieder, Mitarbeitende und Vorstand.
 
 @dmkrs_agr_ranch
-title: Ranch owners, ranch managers and staff.
+title: Ranchbesitzer, Ranchleitung und Mitarbeitende.
 view-if: sector = "agriculture"
 on-arrival: decision-makers = "Ranch owners, ranch managers and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Ranch owners, ranch managers and staff.
+Me: Ranchbesitzer, Ranchleitung und Mitarbeitende.
 
 # Business
 
 @dmkrs_bus_store
-title: Store owners, managers and staff.
+title: Ladenbesitzer, Management und Mitarbeitende.
 view-if: sector = "business"
 on-arrival: decision-makers = "Store owners, managers and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Store owners, managers and staff.
+Me: Ladenbesitzer, Management und Mitarbeitende.
 
 @dmkrs_bus_insurance
-title: Insurance executives, underwriters and staff.
+title: Versicherungsleitung, Risikoprüfer und Mitarbeitende.
 view-if: sector = "business"
 on-arrival: decision-makers = "Insurance executives, underwriters and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Insurance executives, underwriters and staff.
+Me: Versicherungsleitung, Risikoprüfer und Mitarbeitende.
 
 @dmkrs_bus_hospitality
-title: Hotel owners, managers and staff.
+title: Hotelbesitzer, Management und Mitarbeitende.
 view-if: sector = "business"
 on-arrival: decision-makers = "Hotel owners, managers and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Hotel owners, managers and staff.
+Me: Hotelbesitzer, Management und Mitarbeitende.
 
 @dmkrs_bus_company
-title: Company owners, managers and staff.
+title: Unternehmensinhaber, Management und Mitarbeitende.
 view-if: sector = "business"
 on-arrival: decision-makers = "Company owners, managers and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Company owners, managers and staff.
+Me: Unternehmensinhaber, Management und Mitarbeitende.
 
 # Culture
 
 @dmkrs_cul_arts
-title: Arts directors, curators and staff.
+title: Kunstleitung, Kuratoren und Mitarbeitende.
 view-if: sector = "culture"
 on-arrival: decision-makers = "Arts directors, curators and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Arts directors, curators and staff.
+Me: Kunstleitung, Kuratoren und Mitarbeitende.
 
 @dmkrs_cul_heritage
-title: Heritage conservators, board members and staff.
+title: Denkmalschützer, Vorstandsmitglieder und Mitarbeitende.
 view-if: sector = "culture"
 on-arrival: decision-makers = "Heritage conservators, board members and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Heritage conservators, board members and staff.
+Me: Denkmalschützer, Vorstandsmitglieder und Mitarbeitende.
 
 @dmkrs_cul_newsroom
-title: Media board members, editors and journalists.
+title: Medienvorstand, Redakteure und Journalistinnen und Journalisten.
 view-if: sector = "culture"
 on-arrival: decision-makers = "Media board members, editors and journalists."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Media board members, editors and journalists.
+Me: Medienvorstand, Redakteure und Journalistinnen und Journalisten.
 
 # Education
 
 @dmkrs_edu_kindergarten
-title: Kindergarten teachers and administrators.
+title: Kita-Erzieherinnen und -Erzieher sowie Verwaltung.
 view-if: sector = "education"
 on-arrival: decision-makers = "Kindergarten teachers and administrators."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Kindergarten teachers and administrators.
+Me: Kita-Erzieherinnen und -Erzieher sowie Verwaltung.
 
 @dmkrs_edu_school
-title: School administrators, teachers and the ministry of education.
+title: Schulleitung, Lehrkräfte und Bildungsministerium.
 view-if: sector = "education"
 on-arrival: decision-makers = "School administrators, teachers and the ministry of education."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: School administrators, teachers and the ministry of education.
+Me: Schulleitung, Lehrkräfte und Bildungsministerium.
 
 @dmkrs_edu_university
-title: University faculty and administration.
+title: Hochschuldozierende und Verwaltung.
 view-if: sector = "education"
 on-arrival: decision-makers = "University faculty and administration."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: University faculty and administration.
+Me: Hochschuldozierende und Verwaltung.
 
 # Industry
 
 @dmkrs_ind_factory
-title: Factory managers, production supervisors and staff.
+title: Fabrikleitung, Produktionsleitung und Mitarbeitende.
 view-if: sector = "industry"
 on-arrival: decision-makers = "Factory managers, production supervisors and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Factory managers, production supervisors and staff.
+Me: Fabrikleitung, Produktionsleitung und Mitarbeitende.
 
 @dmkrs_ind_construction
-title: Construction managers, project supervisors and staff.
+title: Bauleitung, Projektleitung und Mitarbeitende.
 view-if: sector = "industry"
 on-arrival: decision-makers = "Construction managers, project supervisors and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Construction managers, project supervisors and staff.
+Me: Bauleitung, Projektleitung und Mitarbeitende.
 
 @dmkrs_ind_logging
-title: Logging supervisors, forest managers and staff.
+title: Forstaufsicht, Forstmanagement und Mitarbeitende.
 view-if: sector = "industry"
 on-arrival: decision-makers = "Logging supervisors, forest managers and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Logging supervisors, forest managers and staff.
+Me: Forstaufsicht, Forstmanagement und Mitarbeitende.
 
 # Nonprofit
 
 @dmkrs_nonprofit_service
-title: Service coordinators, board members and staff.
+title: Dienstleistungskoordination, Vorstandsmitglieder und Mitarbeitende.
 view-if: sector = "nonprofit"
 on-arrival: decision-makers = "Service coordinators, board members and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Service coordinators, board members and staff.
+Me: Dienstleistungskoordination, Vorstandsmitglieder und Mitarbeitende.
 
 @dmkrs_nonprofit_advocacy
-title: Advocacy leaders, campaign managers and staff.
+title: Interessenvertretung, Kampagnenmanagement und Mitarbeitende.
 view-if: sector = "nonprofit"
 on-arrival: decision-makers = "Advocacy leaders, campaign managers and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Advocacy leaders, campaign managers and staff.
+Me: Interessenvertretung, Kampagnenmanagement und Mitarbeitende.
 
 @dmkrs_nonprofit_climate
-title: Environmental scientists and activists.
+title: Umweltwissenschaftler und Aktivistinnen und Aktivisten.
 view-if: sector = "nonprofit"
 on-arrival: decision-makers = "Environmental scientists and activists."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Environmental scientists and activists.
+Me: Umweltwissenschaftler und Aktivistinnen und Aktivisten.
 
 # Public service
 
 @dmkrs_pub_transport
-title: Public transport executives, operations managers and staff.
+title: Leitung des ÖPNV, Betriebsleitung und Mitarbeitende.
 view-if: sector = "business"
 on-arrival: decision-makers = "Public transport executives, operations managers and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Public transport executives, operations managers and staff.
+Me: Leitung des ÖPNV, Betriebsleitung und Mitarbeitende.
 
 @dmkrs_pub_health
-title: Hospital administrators and medical staff.
+title: Krankenhausverwaltung und medizinisches Personal.
 view-if: sector = "publicservice"
 on-arrival: decision-makers = "Hospital administrators and medical staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Hospital administrators and medical staff.
+Me: Krankenhausverwaltung und medizinisches Personal.
 
 @dmkrs_pub_service
-title: Agency directors and department heads.
+title: Behördenleitung und Abteilungsleitungen.
 view-if: sector = "publicservice"
 on-arrival: decision-makers = "Agency directors and department heads."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Agency directors and department heads.
+Me: Behördenleitung und Abteilungsleitungen.
 
 @dmkrs_pub_parks
-title: Parks managers, recreation coordinators and staff.
+title: Parkverwaltung, Freizeitkoordination und Mitarbeitende.
 view-if: sector = "publicservice"
 on-arrival: decision-makers = "Parks managers, recreation coordinators and staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Parks managers, recreation coordinators and staff.
+Me: Parkverwaltung, Freizeitkoordination und Mitarbeitende.
 
 # Policymaking
 
 @dmkrs_pol_policy
-title: Government officials and policy advisors.
+title: Regierungsbeamte und Politikberater.
 view-if: sector = "policymaking"
 on-arrival: decision-makers = "Government officials and policy advisors."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Government officials and policy advisors.
+Me: Regierungsbeamte und Politikberater.
 
 @dmkrs_pol_city
-title: City council members and mayor.
+title: Stadtratsmitglieder und Bürgermeister.
 view-if: sector = "policymaking"
 on-arrival: decision-makers = "City council members and mayor."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: City council members and mayor.
+Me: Stadtratsmitglieder und Bürgermeister.
 
 @dmkrs_pol_intl
-title: Ambassadors and diplomatic staff.
+title: Botschafter und diplomatisches Personal.
 view-if: sector = "policymaking"
 on-arrival: decision-makers = "Ambassadors and diplomatic staff."
 go-to: 9_wum_rb_physical
 tags: decision_makers
 
-Me: Ambassadors and diplomatic staff.
+Me: Botschafter und diplomatisches Personal.

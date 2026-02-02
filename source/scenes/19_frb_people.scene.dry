@@ -1,71 +1,71 @@
-title: Future Resource Base - People
-subtitle: How We Must Behave
+title: Zukünftige Ressourcenbasis – Menschen
+subtitle: Wie wir uns verhalten müssen
 new-page: true
 
-Facilyn: People will most likely judge you by your behaviour, not your fancy slogans. Therefore, please describe how you must behave to ensure the support of those in your resource base — customers, clients, suppliers, extended family, friends and others whose support you need.
+Facilyn: Menschen werden dich höchstwahrscheinlich nach deinem Verhalten beurteilen – nicht nach schönen Slogans. Beschreibe deshalb, wie du dich verhalten musst, um die Unterstützung der Menschen in deiner Ressourcenbasis zu sichern: Kundinnen und Kunden, Auftraggeber, Lieferanten, erweiterte Familie, Freunde und andere, deren Unterstützung du brauchst.
 
 - #behavior_aspects
 
 @frbp_clarification
-title: I'm not sure
+title: Ich bin mir nicht sicher
 tags: behavior_aspects
 
-Me: I'm not sure.
+Me: Ich bin mir nicht sicher.
 
-Facilyn: Think from the point of view of the people you named in your whole under management. For example, for clients whose loyalty you want to maintain, you might need to be honest, reliable, producing quality work.
+Facilyn: Denk aus der Perspektive der Menschen, die du in deinem Ganzen unter Management genannt hast. Für Auftraggeber, deren Treue du erhalten willst, musst du zum Beispiel ehrlich und zuverlässig sein und gute Arbeit liefern.
 
-Facilyn: What other personal qualities must you demonstrate to maintain trust?
+Facilyn: Welche weiteren persönlichen Eigenschaften musst du zeigen, um Vertrauen zu erhalten?
 
-Facilyn: And make sure to cover the behaviours underlying the relationships you desire among yourselves, as decision-makers, as well.
+Facilyn: Und achte darauf, auch die Verhaltensweisen abzudecken, die den Beziehungen zugrunde liegen, die ihr euch untereinander als Entscheidungsträger wünscht.
 
-A maintenance robot methodically polishes the teahouse windows, pausing occasionally to admire its own reflection with what appears to be genuine satisfaction.
+Ein Wartungsroboter poliert methodisch die Fenster des Teehauses und hält gelegentlich inne, um sein Spiegelbild zu bewundern – mit etwas, das wie echte Zufriedenheit wirkt.
 
 - #behavior_aspects
 
 @frbp_honest_transparent
-title: Honest, responsive and respectful
+title: Ehrlich, aufmerksam und respektvoll
 on-arrival: frb-people = "Honest, responsive and respectful"
 go-to: 20_frb_environment
 tags: behavior_aspects
 
-Me: Honest, responsive and respectful.
+Me: Ehrlich, aufmerksam und respektvoll.
 
 @frbp_collaborative_supportive
-title: Collaborative, fair and supportive
+title: Kooperativ, fair und unterstützend
 on-arrival: frb-people = "Collaborative, fair and supportive"
 go-to: 20_frb_environment
 tags: behavior_aspects
 
-Me: Collaborative, fair and supportive.
+Me: Kooperativ, fair und unterstützend.
 
 @frbp_professional_innovative
-title: Professional, innovative and committed
+title: Professionell, innovativ und engagiert
 on-arrival: frb-people = "Professional, innovative and committed"
 go-to: 20_frb_environment
 tags: behavior_aspects
 
-Me: Professional, innovative and committed.
+Me: Professionell, innovativ und engagiert.
 
 @frbp_ethical_responsible
-title: Ethical, responsible and dedicated
+title: Ethisch, verantwortungsvoll und konsequent
 on-arrival: frb-people = "Ethical, responsible and dedicated"
 go-to: 20_frb_environment
 tags: behavior_aspects
 
-Me: Ethical, responsible and dedicated.
+Me: Ethisch, verantwortungsvoll und konsequent.
 
 @frbp_empathetic_trustworthy
-title: Empathetic, prepared and transparent
+title: Empathisch, vorbereitet und transparent
 on-arrival: frb-people = "Empathetic, prepared and transparent"
 go-to: 20_frb_environment
 tags: behavior_aspects
 
-Me: Empathetic, prepared and transparent.
+Me: Empathisch, vorbereitet und transparent.
 
 @frbp_adaptive_proactive
-title: Adaptive, proactive and open-minded
+title: Anpassungsfähig, proaktiv und aufgeschlossen
 on-arrival: frb-people = "Adaptive, proactive and open-minded"
 go-to: 20_frb_environment
 tags: behavior_aspects
 
-Me: Adaptive, proactive and open-minded.
+Me: Anpassungsfähig, proaktiv und aufgeschlossen.

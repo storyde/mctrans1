@@ -1,37 +1,37 @@
-title: Progress
-subtitle: Your game progress
+title: Fortschritt
+subtitle: Dein Spielfortschritt
 
 # This scene contains information for the left sidebar.
 
-= Background information
+= Hintergrundinformationen
 
-[? if part-of = "individual" : I am here by myself ?]
-[? if part-of = "group" : I am here with my family or friends ?]
-[? if part-of = "org" : I am here as part of an organisation ?]
+[? if part-of = "individual" : Ich bin allein hier. ?]
+[? if part-of = "group" : Ich bin mit meiner Familie oder Freunden hier. ?]
+[? if part-of = "org" : Ich bin hier als Teil einer Organisation. ?]
 
-= My Holistic Context
+= Mein holistischer Kontext
 
-[? if context_progress < 1 : *Building your holistic context...* ?]
-[? if context_progress >= 7 : This holistic context guides your management. ?]
-[? if context_progress >= 1 and context_progress < 7 : *Developing your holistic context...* ?]
+[? if context_progress < 1 : *Du baust deinen holistischen Kontext auf...* ?]
+[? if context_progress >= 7 : Dieser holistische Kontext leitet dein Management. ?]
+[? if context_progress >= 1 and context_progress < 7 : *Du entwickelst deinen holistischen Kontext weiter...* ?]
 
-[? if player_background = "organization" : **Statement of Purpose** ?]
-
-
-**Whole Under Management**
-
-[? if part-of = "individual" : Myself ?]
-[? if part-of = "group" : My family or friends ?]
-[? if part-of = "org" : My organisation ?]
-
-**Quality of Life We Seek**
-
-**Resource Base**
+[? if player_background = "organization" : **Daseinszweck** ?]
 
 
-**Future Resource Base Conditions**
+**Das Ganze unter Management**
 
-**Behaviors for Social Support**
+[? if part-of = "individual" : Ich ?]
+[? if part-of = "group" : Meine Familie oder Freunde ?]
+[? if part-of = "org" : Meine Organisation ?]
+
+**Die Lebensqualität, die wir anstreben**
+
+**Ressourcenbasis**
 
 
-= Filter Questions
+**Zustand der zukünftigen Ressourcenbasis**
+
+**Verhaltensweisen für soziale Unterstützung**
+
+
+= Filterfragen

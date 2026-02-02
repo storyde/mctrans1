@@ -1,40 +1,40 @@
 ﻿title: Start 
 tags: root
 
-= In the not-so-distant future, ...  
+= In einer nicht allzu fernen Zukunft, ...  
 
-... a not-so-distant country grapples with the symptoms of the polycrisis.
+... ringt ein nicht allzu fernes Land mit den Symptomen der Polykrise.
 
-And the robots? They are doing their own thing now.
+Und die Roboter? Die machen inzwischen ihr eigenes Ding.
 
-You arrive in the middle of it all, searching for the teahouse to catch up with an old friend. 
+Du kommst mitten hinein, auf der Suche nach dem Teehaus, um dich mit einer alten Freundin zu treffen. 
 
-You came here:  
+Du bist hier:  
 
 - #here_with
 
 @by_yourself
-title: On my own 
-subtitle: Currently without company
+title: Allein 
+subtitle: Gerade ohne Begleitung
 on-arrival: part-of = "individual"
 go-to: 3_harbour
 tags: here_with
 
-Me: On my own. My friend invited me to learn about a new management framework.
+Me: Allein. Facylin hat mich eingeladen, ein neues Management-Framework kennenzulernen.
 
 @with_group
-title: With family or friends
+title: Mit Familie oder Freunden
 on-arrival: part-of = "group"
 go-to: 3_harbour
 tags: here_with
 
-Me: As a group. Our friend invited us to learn about a new management framework.
+Me: Als Gruppe. Facylin hat uns eingeladen, ein neues Management-Framework kennenzulernen.
 
 @for_organization
-title: On behalf of my organisation
-subtitle: Or with colleagues
+title: Im Auftrag meiner Organisation
+subtitle: Oder mit Kolleginnen und Kollegen
 on-arrival: part-of = "org"
 go-to: 3_harbour
 tags: here_with
 
-Me: On behalf of my organisation. Our friend invited us to learn about a new management framework.
+Me: Im Auftrag meiner Organisation. Unsere Freundin hat uns eingeladen, ein neues Management-Framework kennenzulernen.

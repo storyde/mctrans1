@@ -1,55 +1,55 @@
-title: Relationships
-subtitle: How We Connect With Others
+title: Beziehungen
+subtitle: Wie wir mit anderen verbunden sind
 
-Facilyn: The next part is about relationships. Focus on the outcomes you want, not the behaviours. Describe the kind of relationships that result from respectful, caring behaviour, rather than the behaviour itself.
+Facilyn: Der nächste Teil handelt von Beziehungen. Konzentriere dich auf die Ergebnisse, die du dir wünschst – nicht auf das Verhalten. Beschreibe die Art von Beziehungen, die aus respektvollem, fürsorglichem Umgang entsteht, statt den Umgang selbst.
 
-Facilyn: What kind of relationship quality matters most to you?
+Facilyn: Welche Beziehungsqualität ist dir am wichtigsten?
 
 - #relationship_aspects
 
 @qolr_explanation
-title: What do you mean exactly?
+title: Was meinst du genau?
 max-visits: 1
 tags: relationship_aspects
 
-Me: What do you mean exactly?
+Me: Was meinst du genau?
 
-Facilyn: Think about it this way — instead of saying that better communication is needed to improve a relationship, describe what a good relationship looks like: "We work as a team that communicates effectively, remains calm under pressure and has fun together."
+Facilyn: Denk so darüber nach: Statt zu sagen, dass bessere Kommunikation nötig ist, um eine Beziehung zu verbessern, beschreibe, wie eine gute Beziehung aussieht: „Wir arbeiten als Team, kommunizieren effektiv, bleiben unter Druck ruhig und haben gemeinsam Spaß.“
 
-Facilyn: You're painting a picture of the relationship qualities that will emerge when people treat each other with respect and care.
+Facilyn: Du malst ein Bild von den Beziehungsqualitäten, die entstehen, wenn Menschen einander mit Respekt und Fürsorge begegnen.
 
-A harbour-bot and a lighthouse-bot linger at a lonely buoy, trading sea-glass and jokes after a long night guiding ships — until the buoy starts giggling and confesses it’s actually a tiny submarine-bot that parked there for the company.
+Ein Hafen-Bot und ein Leuchtturm-Bot stehen an einer einsamen Boje, tauschen Seeglas und Witze nach einer langen Nacht des Schiffeleitens – bis die Boje kichert und gesteht, dass sie eigentlich ein kleiner U-Boot-Bot ist, der dort nur für Gesellschaft geparkt hat.
 
 - #relationship_aspects
 
 @qolr_harmony_care
-title: Harmony, care and enjoying our time together
+title: Harmonie, Fürsorge und die Zeit miteinander genießen
 on-arrival: qol-relationships = "Harmony, care and enjoying our time together"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Harmony, care and enjoying our time together.
+Me: Harmonie, Fürsorge und die Zeit miteinander genießen.
 
 @qolr_open_communication
-title: Open communication, mutual trust and enjoying each other's company
+title: Offene Kommunikation, gegenseitiges Vertrauen und die Gesellschaft des anderen genießen
 on-arrival: qol-relationships = "Open communication, mutual trust and enjoying each other's company"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Open communication, mutual trust and enjoying each other's company.
+Me: Offene Kommunikation, gegenseitiges Vertrauen und die Gesellschaft des anderen genießen.
 
 @qolr_effective_teamwork
-title: Effective collaboration, mutual understanding and having fun together
+title: Effektive Zusammenarbeit, gegenseitiges Verständnis und gemeinsam Spaß haben
 on-arrival: qol-relationships = "Effective collaboration, mutual understanding and having fun together"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Effective collaboration, mutual understanding and having fun together.
+Me: Effektive Zusammenarbeit, gegenseitiges Verständnis und gemeinsam Spaß haben.
 
 @qolr_remaining_calm
-title: Remaining calm, supporting each other, and mutual respect
+title: Ruhig bleiben, einander unterstützen und gegenseitiger Respekt
 on-arrival: qol-relationships = "Remaining calm, supporting each other, and mutual respect"
 go-to: 16_qol_challenge_growth
 tags: relationship_aspects
 
-Me: Remaining calm, supporting each other, and mutual respect.
+Me: Ruhig bleiben, einander unterstützen und gegenseitiger Respekt.

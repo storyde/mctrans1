@@ -1,13 +1,13 @@
-title: Manage Complexity
+title: Manage Komplexität
 new-page: true  
 
-= Manage Complexity
+= Manage Komplexität
 
-Get a taste of how our world is managed into crisis — and learn a framework to prevent it.
+Bekomme einen Eindruck davon, wie unsere Welt durch Management in die Krise geführt wird — und lerne ein Framework, das sie verhindern kann.
 
 - @start_game: Start
-- @go_to_credits: Credits
-- @test_choice: Test_choice
+- @go_to_credits: Mitwirkende
+- @test_choice: Testauswahl
 
 @start_game
 go-to: 2_intro
@@ -16,5 +16,5 @@ go-to: 2_intro
 go-to: credits
 
 @test_choice
-subtitle: Test another choice
+subtitle: Teste eine andere Auswahl
 go-to: zz_test

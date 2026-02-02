@@ -1,168 +1,168 @@
-title: Find the teahouse  
-subtitle: On the way to the Teahouse  
+title: Das Teehaus finden  
+subtitle: Auf dem Weg zum Teehaus  
 on-arrival: poly-what = 1
 on-departure: poly-what = 0
 
-You reach the old harbour.
+Du erreichst den alten Hafen.
 
-Info screens alternate with small shops. 
-A delivery drone circles overhead, searching for the best angle to take a selfie.  
+Infoscreens wechseln sich mit kleinen Läden ab. 
+Eine Lieferdrohne kreist über dir und sucht nach dem besten Winkel für ein Selfie.  
 
-In the hinterlands, a dust storm gathers, its grit already scratching at your throat.
+Im Hinterland braut sich ein Staubsturm zusammen, dessen Körner dir schon jetzt im Hals kratzen.
 
-Nearby, someone mutters something about the polycrisis...
+In der Nähe murmelt jemand etwas von der Polykrise...
 
 - #harbour
 
 @the_stranger  
-title: The poly-what?  
-subtitle: Isn’t a normal crisis bad enough already?  
+title: Die Poly-was?  
+subtitle: Ist eine normale Krise nicht schon schlimm genug?  
 view-if: poly-what = 1
 tags: harbour
 
-Me: The poly-what?  
+Me: Die Poly-was?  
 
-The stranger eyes you, amused.  
+Der Fremde mustert dich amüsiert.  
 
-Stranger: The polycrisis is when social, economic, and environmental challenges stop lining up one by one... and start crashing down together.  
+Stranger: Von Polykrise spricht man, wenn soziale, wirtschaftliche und ökologische Herausforderungen nicht mehr schön der Reihe nach kommen ... sondern gemeinsam auf einmal über uns hereinbrechen.  
 
 - @stranger_teahouse_directions
 - @vendor_scene 
 - @info_screen  
 
 @stranger_teahouse_directions
-title: Ask for directions to the teahouse
+title: Nach dem Weg zum Teehaus fragen
 on-arrival: know-sidestreet = 1 
 
-Me: Hey, before you go, could you tell me how to get to the teahouse?
+Me: Hey, bevor du gehst: Kannst du mir sagen, wie ich zum Teehaus komme?
 
-Stranger: Sure, it's that way. Just follow the red banners; they'll lead you straight there.
+Stranger: Klar, da lang. Folge einfach den roten Bannern; die führen dich direkt hin.
 
-They point to a sidestreet, then disappear into the crowd.
+Er zeigt in eine Seitenstraße und verschwindet dann in der Menge.
 
 - #harbour
 
 @info_screen  
-title: Read the info-screen
+title: Den Infoscreen lesen
 tags: harbour
 max-visits: 1
 
-You step closer to one of the info-screens. Images flicker: last week’s megafires, famine zones, heatwaves, and protests.
+Du trittst näher an einen der Infoscreens heran. Bilder flackern auf: die Megabrände der letzten Woche, Hungerzonen, Hitzewellen und Proteste.
 
-The headlines warn:  
+Die Schlagzeilen warnen:  
 
-Headline1: Protests escalate.
-Headline1: Blackouts expected to continue.
-Headline2: Global harvests at record low.  
-Headline3: Water shortages intensifying.  
+Headline1: Proteste eskalieren.
+Headline1: Stromausfälle sollen weiter andauern.
+Headline2: Globale Ernten auf Rekordtief.  
+Headline3: Wasserknappheit verschärft sich.  
 
 - #harbour
 
 @vendor_scene  
-title: Buy water from a vendor  
+title: Wasser bei einem Händler kaufen  
 tags: harbour
 max-visits: 1
 
-A vendor waves a cracked purifier bottle at you.  
+Ein Händler wedelt mit einer gesprungenen Filterflasche in deine Richtung.  
 
-Vendor: One sip for a coin. Or keep walking thirsty.  
+Vendor: Ein Schluck für eine Münze. Oder du läufst durstig weiter.  
 
 - @pay_vendor
 - @haggle_vendor
 
 @pay_vendor  
-title: Hand over some crypto 
+title: Etwas Krypto geben 
 
-You hand over some crypto. The water tastes metallic, but eases your throat.  
+Du gibst etwas Krypto. Das Wasser schmeckt metallisch, aber es lindert das Kratzen im Hals.  
 
 - @vendor_teahouse_directions
 
 @haggle_vendor  
-title: Haggle with the vendor
+title: Mit dem Händler feilschen
 
-Me: That’s robbery. Half a coin.  
+Me: Das ist Wucher. Eine halbe Münze.  
 
-The vendor narrows his eyes, then shrugs.  
-Vendor: Fine. Half. You’ll wish you’d bought more.  
+Der Händler kneift die Augen zusammen und zuckt dann mit den Schultern.  
+Vendor: Na gut. Die Hälfte. Du wirst dir wünschen, du hättest mehr gekauft.  
 
-The water is thin but cool. Enough to ease your tongue.  
+Das Wasser ist dünn, aber kühl. Genug, um deine Zunge zu beruhigen.  
 
 - @vendor_teahouse_directions 
 
 @vendor_teahouse_directions
-title: Ask for the teahouse
+title: Nach dem Teehaus fragen
 on-arrival: know-sidestreet = 1 
 
-Me: Do you know where the teahouse is?
+Me: Weißt du, wo das Teehaus ist?
 
-The vendor points down a side street.  
+Der Händler deutet eine Seitenstraße hinunter.  
 
-Vendor: Follow the red banners. You can’t miss it.  
+Vendor: Folge den roten Bannern. Du kannst es nicht verfehlen.  
 
 - #harbour
 
 @people_drawing
-title: Ask for directions to the teahouse
+title: Nach dem Weg zum Teehaus fragen
 tags: harbour
 max-visits: 1
 
-You see some people with their kids scratching shapes into the dust.  
+Du siehst ein paar Leute, die zusammen mit ihren Kindern Formen in den Staub kratzen.  
 
-As you get closer, you recognize the logos of NASA, WHO, WWF and other organisations.  
+Als du näher kommst, erkennst du die Logos von NASA, WHO, WWF und anderen Organisationen.  
 
 - @why_drawing  
 - @people_teahouse_directions
 
 @why_drawing  
-title: Ask them why they draw these
+title: Fragen, warum sie das zeichnen
 
-Me: Why do you draw these?
+Me: Warum zeichnet ihr das?
 
-Drawer: So we remember who tries to fix what, even if it doesn’t last.  
+Drawer: Damit wir nicht vergessen, wer versucht, was zu reparieren, selbst wenn es nicht hält.  
 
-The dust from the nearby farms blows the drawings away. 
+Der Staub von den nahegelegenen Feldern weht die Zeichnungen davon. 
 
-It’s a quiet reminder: Without functioning agriculture, most organisations would not even exist.  
+Es ist eine stille Erinnerung: Ohne funktionierende Landwirtschaft würden die meisten Organisationen nicht einmal existieren.  
 
 - @people_teahouse_directions
 
 @people_teahouse_directions
-title: Ask them where the teahouse is
+title: Fragen, wo das Teehaus ist
 on-arrival: know-sidestreet = 1 
 
-Me: Do you know where the teahouse is?
+Me: Wisst ihr, wo das Teehaus ist?
 
-One points down a side street.  
-Drawer: Follow the red banners. You can’t miss it.  
+Eine Person zeigt in eine Seitenstraße.  
+Drawer: Folge den roten Bannern. Du kannst es nicht verfehlen.  
 
 - #harbour
 
 @side-street
-title: Head to the teahouse
+title: Zum Teehaus gehen
 view-if: know-sidestreet = 1 
 tags: harbour
 
-You stumble through the side street, dust stinging your face. 
+Du stolperst durch die Seitenstraße, während der Staub in deinem Gesicht brennt. 
 
-On the pavement, a drone hovers in place, dropping crumbs to a swarm of eager pigeons. Then it falters, topples, and lies struggling on the ground.
+Auf dem Gehweg schwebt eine Drohne auf der Stelle und lässt Krümel in einen Schwarm gieriger Tauben fallen. Dann gerät sie ins Stocken, kippt um und liegt zappelnd am Boden.
 
-The paper lanterns of the old teahouse sway in the wind, welcoming you into dim light. 
+Die Papierlaternen des alten Teehauses schaukeln im Wind und heißen dich in gedämpftem Licht willkommen. 
 
 - #th_arrival
 
 @drone_scene  
-title: Help the drone
+title: Der Drohne helfen
 max-visits: 1
 tags: th_arrival
 
-You crouch and carefully pick it up.  
+Du gehst in die Hocke und hebst sie vorsichtig auf.  
 
-Me: Let’s see... sensors misaligned.  
+Me: Mal sehen ... Sensoren verstellt.  
 
-You switch off the drone, adjust its optics, check the battery and switch it back on again.  
+Du schaltest die Drohne aus, richtest ihre Optik aus, prüfst den Akku und schaltest sie wieder ein.  
 
-The drone lifts off, circling briefly before palling again with the birds. 
+Die Drohne hebt ab, kreist kurz und freundet sich dann wieder mit den Vögeln an. 
 
-Something about its behaviour makes you smile...
+Irgendetwas an ihrem Verhalten bringt dich zum Lächeln ...
 
 - #th_arrival

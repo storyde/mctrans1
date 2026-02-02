@@ -1,164 +1,164 @@
-title: Filter questions
+title: Filterfragen
 new-page: true
 
-Facilyn: As you manage your life or business, or even an agency, you will develop plans and strategies to achieve your goals or the purpose of your organisation. And you will face many management decisions. 
+Facilyn: Während du dein Leben oder dein Unternehmen managst – oder auch eine Behörde – wirst du Pläne und Strategien entwickeln, um deine Ziele oder den Zweck deiner Organisation zu erreichen. Und du wirst vielen Management-Entscheidungen begegnen. 
 
-Facilyn: What kind of decision would you like to work through?
+Facilyn: Welche Art von Entscheidung möchtest du durchgehen?
 
 - #example_types
 
 @xmpl_clarification
-title: I am not sure
+title: Ich bin mir nicht sicher
 tags: example_types
 
-Me: I am not sure.
+Me: Ich bin mir nicht sicher.
 
-Facilyn: Think of any situation where you have multiple options and need to choose the best path forward. 
+Facilyn: Denk an eine Situation, in der du mehrere Optionen hast und den besten Weg nach vorn wählen musst. 
 
-A delivery robot pauses outside the teahouse, apparently consulting its internal GPS while a small bird perches curiously on its antenna, creating an unlikely partnership in navigation.
+Ein Lieferroboter hält draußen vor dem Teehaus an und konsultiert offenbar sein internes GPS, während ein kleiner Vogel neugierig auf seiner Antenne sitzt – eine unerwartete Navigationspartnerschaft.
 
 - #example_types
 
 @xmpl_custom
-title: I have my own example in mind
+title: Ich habe mein eigenes Beispiel im Kopf
 on-arrival: example_type = "I have my own example in mind"
 tags: example_details
 
-Me: I have my own example in mind.
+Me: Ich habe mein eigenes Beispiel im Kopf.
 
-Facilyn: Perfect! Keep that clearly in mind as we work through the seven context checks. 
+Facilyn: Perfekt! Behalte das klar vor Augen, während wir die sieben Kontextfragen durchgehen. 
 
 @xmpl_personal_decision
-title: A personal decision
+title: Eine persönliche Entscheidung
 on-arrival: example_type = "A personal decision"
 go-to: xmpl_example_chosen
 tags: example_types
 
-Me: A personal decision.
+Me: Eine persönliche Entscheidung.
 
-Facilyn: Excellent. This touches on lifestyle, relationships, education, health, or how you spend your time and resources.
+Facilyn: Ausgezeichnet. Das betrifft Lebensstil, Beziehungen, Bildung, Gesundheit oder wie du deine Zeit und Ressourcen einsetzt.
 
 - #example_details
 
 @xmpl_community_decision
-title: A decision regarding family, friends or community
+title: Eine Entscheidung zu Familie, Freunden oder Gemeinschaft
 view-if: part-of = "group"
 on-arrival: example_type = "A decision regarding family, friends or community"
 go-to: xmpl_example_chosen
 tags: example_types
 
-Me: A decision regarding family, friends or community.
+Me: Eine Entscheidung zu Familie, Freunden oder Gemeinschaft.
 
-Facilyn: Perfect. This might involve your closest fellows.
+Facilyn: Perfekt. Das kann deine engsten Mitmenschen betreffen.
 
 - #example_details
 
 @xmpl_environmental_decision
-title: An environmental or land management decision
+title: Eine Umwelt- oder Landmanagement-Entscheidung
 on-arrival: example_type = "An environmental or land management decision"
 go-to: xmpl_example_chosen
 tags: example_types
 
-Me: An environmental or land management decision.
+Me: Eine Umwelt- oder Landmanagement-Entscheidung.
 
-Facilyn: Wonderful. This touches on land use, conservation, sustainability practices, or environmental impact.
+Facilyn: Wunderbar. Das betrifft Landnutzung, Naturschutz, Nachhaltigkeitspraktiken oder Umweltauswirkungen.
 
 - #example_details
 
 @xmpl_agricultural_decision
-title: An agricultural decision
+title: Eine landwirtschaftliche Entscheidung
 view-if: sector = "agriculture"
 on-arrival: example_type = "An agricultural decision"
 go-to: xmpl_example_chosen
 tags: example_types
 
-Me: An agricultural decision.
+Me: Eine landwirtschaftliche Entscheidung.
 
-Facilyn: Great. This touches on crop selection, livestock management, equipment investment, or soil health practices.
+Facilyn: Sehr gut. Das betrifft Kulturwahl, Tierhaltung, Investitionen in Ausrüstung oder Maßnahmen für Bodengesundheit.
 
 @xmpl_business_decision
-title: A business or work-related decision
+title: Eine geschäftliche oder arbeitsbezogene Entscheidung
 view-if: sector = "business"
 on-arrival: example_type = "A business or work-related decision"
 go-to: xmpl_example_chosen
 tags: example_types
 
-Me: A business or work-related decision.
+Me: Eine geschäftliche oder arbeitsbezogene Entscheidung.
 
-Facilyn: An excellent choice! Business touches on economic factors, relationships with stakeholders, resource management, and long-term sustainability.
+Facilyn: Eine ausgezeichnete Wahl! Geschäft betrifft wirtschaftliche Faktoren, Beziehungen zu Stakeholdern, Ressourcenmanagement und langfristige Nachhaltigkeit.
 
 @xmpl_cultural_decision
-title: A cultural or creative decision
+title: Eine kulturelle oder kreative Entscheidung
 view-if: sector = "culture"
 on-arrival: example_type = "A cultural or creative decision"
 go-to: xmpl_example_chosen
 tags: example_types
 
-Me: A cultural or creative decision.
+Me: Eine kulturelle oder kreative Entscheidung.
 
-Facilyn: Intriguing. This touches on artistic projects, preservation of heritage, or community engagement through culture.
+Facilyn: Spannend. Das betrifft künstlerische Projekte, die Bewahrung von Erbe oder Gemeinschaftsbeteiligung durch Kultur.
 
 @xmpl_educational_decision
-title: An educational or academic decision
+title: Eine Bildungs- oder akademische Entscheidung
 view-if: sector = "education"
 on-arrival: example_type = "An educational or academic decision"
 go-to: xmpl_example_chosen
 tags: example_types
 
-Me: An educational or academic decision.
+Me: Eine Bildungs- oder akademische Entscheidung.
 
-Facilyn: Important. This touches on curriculum changes, research funding, student welfare, or institutional partnerships.
+Facilyn: Wichtig. Das betrifft Lehrplanänderungen, Forschungsförderung, studentisches Wohlergehen oder institutionelle Partnerschaften.
 
 @xmpl_industrial_decision
-title: An industrial or manufacturing decision
+title: Eine Industrie- oder Fertigungsentscheidung
 view-if: sector = "industry"
 on-arrival: example_type = "An industrial or manufacturing decision"
 go-to: xmpl_example_chosen
 tags: example_types
 
-Me: An industrial or manufacturing decision.
+Me: Eine Industrie- oder Fertigungsentscheidung.
 
-Facilyn: A solid choice. This touches on production methods, supply chain adjustments, safety protocols, or resource efficiency.
+Facilyn: Eine solide Wahl. Das betrifft Produktionsmethoden, Anpassungen in der Lieferkette, Sicherheitsprotokolle oder Ressourceneffizienz.
 
 @xmpl_nonprofit_decision
-title: A nonprofit or advocacy decision
+title: Eine Entscheidung in Gemeinnützigkeit oder Interessenvertretung
 view-if: sector = "nonprofit"
 on-arrival: example_type = "A nonprofit or advocacy decision"
 go-to: xmpl_example_chosen
 tags: example_types
 
-Me: A nonprofit or advocacy decision.
+Me: Eine Entscheidung in Gemeinnützigkeit oder Interessenvertretung.
 
-Facilyn: Noble. This touches on campaign strategies, donor relations, volunteer management, or mission alignment.
+Facilyn: Edel. Das betrifft Kampagnenstrategien, Beziehungen zu Spendern, Freiwilligenmanagement oder die Ausrichtung am Auftrag.
 
 @xmpl_public_service_decision
-title: A public service or infrastructure decision
+title: Eine Entscheidung zu öffentlichen Diensten oder Infrastruktur
 view-if: sector = "publicservice"
 on-arrival: example_type = "A public service or infrastructure decision"
 go-to: xmpl_example_chosen
 tags: example_types
 
-Me: A public service or infrastructure decision.
+Me: Eine Entscheidung zu öffentlichen Diensten oder Infrastruktur.
 
-Facilyn: Vital. This touches on service delivery, infrastructure maintenance, public health initiatives, or emergency response.
+Facilyn: Entscheidend. Das betrifft Leistungsbereitstellung, Instandhaltung von Infrastruktur, Initiativen für öffentliche Gesundheit oder Notfallreaktion.
 
 @xmpl_policy_decision
-title: A policymaking or governance decision
+title: Eine Politikgestaltungs- oder Regierungsentscheidung
 view-if: sector = "policymaking"
 on-arrival: example_type = "A policymaking or governance decision"
 go-to: xmpl_example_chosen
 tags: example_types
 
-Me: A policymaking or governance decision.
+Me: Eine Politikgestaltungs- oder Regierungsentscheidung.
 
-Facilyn: Impactful. This could cover legislative changes, regulatory frameworks, international agreements, or budget allocations.
+Facilyn: Wirkungsvoll. Das kann Gesetzesänderungen, Regulierung, internationale Abkommen oder Haushaltszuweisungen umfassen.
 
 @xmpl_example_chosen
-title: That is a good example
+title: Das ist ein gutes Beispiel
 go-to: 23_fq_cause_effect
 
-Facilyn: To choose your solution, you consider experience, experts' or friends' advice, and laws as always.  
+Facilyn: Um deine Lösung zu wählen, berücksichtigst du wie immer Erfahrung, Rat von Experten oder Freunden und Gesetze.  
 
-Facilyn: And when you come up with your preferred solution, before you take any action, you will run your decision through the seven context checks.
+Facilyn: Und wenn du deine bevorzugte Lösung gefunden hast, wirst du – bevor du handelst – deine Entscheidung durch die sieben Kontextfragen laufen lassen.
 
-Facilyn: Answer these questions in quick succession to see the likely effect on your whole. 
+Facilyn: Beantworte diese Fragen zügig hintereinander, um die wahrscheinlichen Auswirkungen auf dein Ganzes zu sehen. 

@@ -1,73 +1,73 @@
-title: Ok
+title: Okay
 tags: qol_intro
 
-Me: Ok
+Me: Okay
 
-Facilyn: Economic well-being is essential for meeting basic human needs — food, clothing, shelter, health, and security. Focus on what money provides, not money itself.
+Facilyn: Wirtschaftliches Wohlbefinden ist entscheidend, um grundlegende menschliche Bedürfnisse zu erfüllen – Nahrung, Kleidung, Unterkunft, Gesundheit und Sicherheit. Konzentriere dich darauf, was Geld ermöglicht, nicht auf das Geld selbst.
 
-Facilyn: What aspect of economic well-being matters most to you?
+Facilyn: Welcher Aspekt wirtschaftlichen Wohlbefindens ist dir am wichtigsten?
 
 - #economic_aspects
 
 @qolew_explanation
-title: I am not sure...
+title: Ich bin mir nicht sicher ...
 max-visits: 1
 tags: economic_aspects
 
-Me: I am not sure...
+Me: Ich bin mir nicht sicher ...
 
-Facilyn: Take your time. Remember, you're describing how you want your economic life to feel and function, not specific dollar amounts or possessions.
+Facilyn: Lass dir Zeit. Denk daran: Du beschreibst, wie sich dein wirtschaftliches Leben anfühlen und funktionieren soll – nicht konkrete Geldbeträge oder Besitz.
 
-Facilyn: Name what you gain from having money. Security? Freedom? The ability to help others? That underlying benefit is what belongs in your Quality of Life Statement.
+Facilyn: Benenne, was du durch Geld gewinnst. Sicherheit? Freiheit? Die Möglichkeit, anderen zu helfen? Genau dieser zugrunde liegende Nutzen gehört in dein Lebensqualitäts-Statement.
 
 - #economic_aspects
 
 @qolew_basic_needs_fulfilled
-title: Nutritious food, warm clothing and a cosy home
+title: Nahrhaftes Essen, warme Kleidung und ein gemütliches Zuhause
 on-arrival: qol-economic = "Nutritious food, warm clothing and a cosy home"
 go-to: 15_qol_relationships
 tags: economic_aspects
 
-Me: Nutritious food, warm clothing and a cosy home.
+Me: Nahrhaftes Essen, warme Kleidung und ein gemütliches Zuhause.
 
-Facilyn: Fundamental and wise. When basic needs like food, clothing, and shelter are reliably met, you're free to focus on growth and contribution rather than survival.
+Facilyn: Grundlegend und klug. Wenn Bedürfnisse wie Nahrung, Kleidung und Unterkunft verlässlich gedeckt sind, kannst du dich auf Wachstum und Beitrag konzentrieren – statt auf bloßes Überleben.
 
 @qolew_economic_security
-title: Economic security and the ability to help others
+title: Wirtschaftliche Sicherheit und die Fähigkeit, anderen zu helfen
 on-arrival: qol-economic = "Economic security and the ability to help others"
 go-to: 15_qol_relationships
 tags: economic_aspects
 
-Me: Economic security and the ability to help others.
+Me: Wirtschaftliche Sicherheit und die Fähigkeit, anderen zu helfen.
 
-Facilyn: Excellent. Economic security means having enough resources to cover uncertainties and plan for the future. The capacity to look outward and support others can turn personal success into shared well-being.
+Facilyn: Ausgezeichnet. Wirtschaftliche Sicherheit bedeutet, genügend Ressourcen zu haben, um Ungewissheiten abzufedern und für die Zukunft zu planen. Der Blick nach außen und die Unterstützung anderer können persönlichen Erfolg in gemeinsames Wohlergehen verwandeln.
 
 @qolew_comfortable_surroundings
-title: Comfortable surroundings and freedom to pursue my interests
+title: Angenehme Umgebung und Freiheit, meinen Interessen nachzugehen
 on-arrival: qol-economic = "Comfortable surroundings and freedom to pursue my interests"
 go-to: 15_qol_relationships
 tags: economic_aspects
 
-Me: Comfortable surroundings and freedom to pursue my interests.
+Me: Angenehme Umgebung und Freiheit, meinen Interessen nachzugehen.
 
-Facilyn: Yes, the ability to live in environments that nurture and sustain you. Economic well-being as a foundation for choice and self-determination.
+Facilyn: Ja – die Möglichkeit, in Umgebungen zu leben, die dich nähren und tragen. Wirtschaftliches Wohlbefinden als Grundlage für Wahlfreiheit und Selbstbestimmung.
 
 @qolew_health_and_vitality
-title: Resources for health and security
+title: Ressourcen für Gesundheit und Sicherheit
 on-arrival: qol-economic = "Resources for health and security"
 go-to: 15_qol_relationships
 tags: economic_aspects
 
-Me: Resources for health and security.
+Me: Ressourcen für Gesundheit und Sicherheit.
 
-Facilyn: Essential. Economic well-being is vital for meeting basic human needs for health and security. It's about having the means to protect and care for yourself and your loved ones.
+Facilyn: Wesentlich. Wirtschaftliches Wohlbefinden ist wichtig, um grundlegende Bedürfnisse nach Gesundheit und Sicherheit zu erfüllen. Es geht darum, die Mittel zu haben, um dich und deine Liebsten zu schützen und zu versorgen.
 
 @qolew_travel_and_experience
-title: Resources to travel and experience the world
+title: Ressourcen, um zu reisen und die Welt zu erleben
 on-arrival: qol-economic = "Resources to travel and experience the world"
 go-to: 15_qol_relationships
 tags: economic_aspects
 
-Me: Resources to travel and experience the world.
+Me: Ressourcen, um zu reisen und die Welt zu erleben.
 
-Facilyn: Exploring the world opens your mind and spirit. It's about using resources not just to acquire things, but to acquire perspective, understanding, and memories that last a lifetime.
+Facilyn: Die Welt zu erkunden öffnet Geist und Seele. Es geht darum, Ressourcen nicht nur zu nutzen, um Dinge zu erwerben, sondern um Perspektive, Verständnis und Erinnerungen zu gewinnen, die ein Leben lang bleiben.

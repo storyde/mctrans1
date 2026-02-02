@@ -1,59 +1,59 @@
-﻿title: Gross Profit Analysis Check
-subtitle: Enterprise Selection
+title: Prüfung: Rohgewinnanalyse
+subtitle: Auswahl von Unternehmensbereichen
 new-page: true
 
-Facilyn: The gross profit analysis check helps you focus on activities that generate the best income relative to their additional costs:
+Facilyn: Die Rohgewinnanalyse hilft dir, dich auf Aktivitäten zu konzentrieren, die im Verhältnis zu ihren zusätzlichen Kosten den besten Ertrag bringen:
 
-Facilyn: "Which enterprises contribute the most to covering the overheads of the business?"
+Facilyn: „Welche Unternehmensbereiche tragen am meisten zur Deckung der Gemeinkosten bei?“
 
 - #gross_profit
 
 @fqgp_clarification
-title: I need help understanding this check
+title: Ich brauche Hilfe, diese Frage zu verstehen
 tags: gross_profit
 
-Me: I need help understanding this check.
+Me: Ich brauche Hilfe, diese Frage zu verstehen.
 
-Facilyn: The difference between the money you spend for an enterprise and the money you get out of it is the gross profit.
+Facilyn: Der Unterschied zwischen dem Geld, das du für einen Unternehmensbereich ausgibst, und dem Geld, das du daraus erhältst, ist der Rohgewinn.
 
-Facilyn: You are selecting the best enterprise or combination of enterprises to maximize profit while minimizing risk. This analysis takes a little longer than the other checks and requires pen and paper when evaluating new enterprises for your business.
+Facilyn: Du wählst den besten Unternehmensbereich – oder die beste Kombination – um den Gewinn zu maximieren und zugleich das Risiko zu minimieren. Diese Analyse dauert etwas länger als die anderen Fragen und erfordert bei neuen Unternehmensbereichen Stift und Papier.
 
 - #gross_profit
 
 @fqgp_pass
-title: It contributes the most to covering overheads
+title: Sie trägt am meisten zur Deckung der Gemeinkosten bei
 on-arrival: fltr-profit = "highest contribution"
 go-to: 27_fq_energy_money
 tags: gross_profit
 
-Me: It contributes the most to covering overheads.
+Me: Sie trägt am meisten zur Deckung der Gemeinkosten bei.
 
-Facilyn: Excellent. You've identified this as a high-performing enterprise that will help sustain your business.
+Facilyn: Hervorragend. Du hast das als leistungsstarken Unternehmensbereich erkannt, der dein Geschäft trägt.
 
 @fqgp_fail
-title: It contributes little to covering overheads
+title: Sie trägt nur wenig zur Deckung der Gemeinkosten bei
 on-arrival: fltr-profit = "contributes little"
 go-to: 27_fq_energy_money
 tags: gross_profit
 
-Me: It contributes little to covering overheads.
+Me: Sie trägt nur wenig zur Deckung der Gemeinkosten bei.
 
-Facilyn: You may want to reconsider if this is the best use of your resources, or if there are non-financial reasons that justify it.
+Facilyn: Du solltest überlegen, ob das der beste Einsatz deiner Ressourcen ist – oder ob es nicht-finanzielle Gründe gibt, die das rechtfertigen.
 
 @fqgp_combination
-title: It is part of a good combination of enterprises
+title: Sie ist Teil einer guten Kombination von Unternehmensbereichen
 on-arrival: fltr-profit = "good combination"
 go-to: 27_fq_energy_money
 tags: gross_profit
 
-Me: It is part of a good combination of enterprises.
+Me: Sie ist Teil einer guten Kombination von Unternehmensbereichen.
 
-Facilyn: Good. Sometimes a mix of enterprises creates the best stability and profit, even if one isn't the absolute highest earner on its own.
+Facilyn: Gut. Manchmal schafft eine Mischung von Unternehmensbereichen die beste Stabilität und den besten Gewinn – auch wenn einer für sich genommen nicht der allergrößte Verdiener ist.
 
 @fqgp_skip
-title: Not sure, let's move on
+title: Nicht sicher – weiter
 on-arrival: fltr-profit = "skip"
 go-to: 27_fq_energy_money
 tags: gross_profit
 
-Me: Not sure, let's move on.
+Me: Nicht sicher – weiter.

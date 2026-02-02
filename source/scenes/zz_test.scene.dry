@@ -1,43 +1,38 @@
 title: Test
-subtitle: Just a test choice
+subtitle: Nur eine Testauswahl
 is-special: true
 new-page: true
 tags: root
 
-= Title
+= Titel
 
-> Quote
+> Zitat
 
->> Attribution
+>> Quellenangabe
 
-*This should be italicized.*
+*Das sollte kursiv sein.*
 
-**This should be bolded.**
+**Das sollte fett sein.**
 
-Should see asterisk: \* 
+Sternchen sollte sichtbar sein: \* 
 
-Should see slash-asterisk: \\\* 
+Schrägstrich-Sternchen sollte sichtbar sein: \\\* 
 
-Should see slash-slash-asterisk: \\\\* 
+Schrägstrich-Schrägstrich-Sternchen sollte sichtbar sein: \\\\* 
 
-Should see brackets: \[ \]
+Klammern sollten sichtbar sein: \[ \]
 
 ---
 
 
 Code: `this should be monospaced.`
 
-In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('32_framework_outro');">Scene Outro</a>!}
-
-In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('5_wum_intro');">5_wum_intro</a>!}
-
-In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('13_qol_intro');">13_qol_intro</a>!}
-
-In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('18_frb_intro');">18_frb_intro</a>!}
-
-In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('21_holtext');">21_holtext</a>!}
-
-In-text link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('30_fq_results');">30_fq_results</a>!}
+In-Text-Link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('32_framework_outro');">Scene Outro</a>!}
+In-Text-Link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('5_wum_intro');">5_wum_intro</a>!}
+In-Text-Link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('13_qol_intro');">13_qol_intro</a>!}
+In-Text-Link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('18_frb_intro');">18_frb_intro</a>!}
+In-Text-Link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('21_holtext');">21_holtext</a>!}
+In-Text-Link: {!<a href="#" onclick="dendryUI.dendryEngine.goToScene('30_fq_results');">30_fq_results</a>!}
 
 # TODO: hover-over
 

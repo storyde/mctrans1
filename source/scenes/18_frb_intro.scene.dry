@@ -1,16 +1,16 @@
-﻿title: Finalize my Quality of Life statement
-subtitle: Bringing It All Together
-unavailable-subtitle: Answer all three questions first
+title: Mein Lebensqualitäts-Statement abschließen
+subtitle: Alles zusammenführen
+unavailable-subtitle: Beantworte zuerst alle drei Fragen
 order: 10
 on-arrival: qol-statement-complete = 1
 choose-if: qolp-about = 1 and qolp-be = 1 and qolp-accomplish = 1
 go-to: 19_frb_people
 tags: purpose_questions
 
-Me: Finalize my Quality of Life statement
+Me: Mein Lebensqualitäts-Statement abschließen
 
-Facilyn: Alright. Simple or elaborate, the key is that you have total agreement with everyone involved. 
+Facilyn: In Ordnung. Ob einfach oder ausführlich – entscheidend ist, dass ihr alle Beteiligten euch vollständig einig seid. 
 
-Facilyn: The last area we need to explore is how your future resource must be to sustain your quality of life. 
+Facilyn: Der letzte Bereich, den wir betrachten müssen, ist: Wie muss deine zukünftige Ressourcenbasis sein, damit sie deine Lebensqualität trägt? 
 
-Facilyn: There are two elements to it: People and land (environment) — even if your connection to it seems indirect. 
+Facilyn: Sie besteht aus zwei Elementen: Menschen und Land (Umwelt) – selbst wenn deine Verbindung dazu indirekt wirkt. 

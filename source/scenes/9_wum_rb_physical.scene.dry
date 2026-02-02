@@ -1,335 +1,333 @@
-title: Physical Resources
-subtitle: Major Physical Assets Available to You
+title: Physische Ressourcen
+subtitle: Wichtige physische Vermögenswerte, die dir zur Verfügung stehen
 
-[? if part-of != "individual" : Facilyn: This framework requires everyone you just named to be involved in this conversation. So, this would normally be the moment you make sure everybody joins in. ?]
+[? if part-of != "individual" : Facilyn: Dieses Framework erfordert, dass alle, die du gerade genannt hast, an diesem Gespräch beteiligt sind. Normalerweise wäre das der Moment, in dem du sicherstellst, dass alle dazukommen. ?]
 
-[? if sector = "policymaking" : Facilyn: And if your organisation is involved in governing and policymaking, you would also make sure to invite citizens from various backgrounds. Otherwise, you risk that your holistic context we are about to create reflects only the priorities of your organisation or of the institutions you collaborate with, instead of reflecting the interests of the people you govern. ?]
+[? if sector = "policymaking" : Facilyn: Und wenn deine Organisation regiert und Politik gestaltet, würdest du außerdem Bürgerinnen und Bürger mit unterschiedlichen Hintergründen einladen. Sonst riskierst du, dass der holistische Kontext, den wir gleich entwickeln, nur die Prioritäten deiner Organisation oder der Institutionen widerspiegelt, mit denen ihr zusammenarbeitet – statt die Interessen der Menschen, die ihr regiert. ?]
 
-[? if part-of != "individual" : Facilyn: But given the approaching storm outside, we'll have to do that next time. ?]
+[? if part-of != "individual" : Facilyn: Aber angesichts des heranziehenden Sturms draußen müssen wir das beim nächsten Mal nachholen. ?]
 
-Facilyn: Now we identify your major physical resources from which you can generate revenue or derive support. These resources need to be available to you, but you don't need to own them.
+Facilyn: Jetzt bestimmen wir deine wichtigsten physischen Ressourcen, aus denen du Einnahmen erzielen oder Unterstützung ableiten kannst. Diese Ressourcen müssen dir zur Verfügung stehen, aber du musst sie nicht besitzen.
 
 - #physical_rcs
 
 @rbph_explanation
-title: Why identify rhysical resources?
+title: Warum physische Ressourcen bestimmen?
 max-visits: 1
 tags: physical_rcs
 
-Me: Why identify rhysical resources?
+Me: Warum physische Ressourcen bestimmen?
 
-Facilyn: Physical resources form the foundation of your operations. They represent your capacity to deliver services, produce goods, or create value. Understanding, what physical assets are available, helps you make better management decisions about how to use them effectively.
+Facilyn: Physische Ressourcen bilden das Fundament deiner Tätigkeit. Sie stehen für deine Fähigkeit, Dienstleistungen zu erbringen, Güter zu produzieren oder Wert zu schaffen. Wenn du verstehst, welche physischen Vermögenswerte dir zur Verfügung stehen, hilft dir das, bessere Management-Entscheidungen darüber zu treffen, wie du sie wirksam nutzt.
 
-Facilyn: You may later decide to sell some of the assets you own, so you only need a general reminder of it.
+Facilyn: Vielleicht entscheidest du später, einige deiner Vermögenswerte zu verkaufen – daher reicht hier eine grobe Erinnerung.
 
-A logistics robot rolls by, diligently cataloguing every object in sight — including a confused pigeon, now officially classified as "city’s air mail transport (unpaid intern)". 
+Ein Logistikroboter rollt vorbei und katalogisiert gewissenhaft jedes Objekt in Sichtweite – inklusive einer verwirrten Taube, die nun offiziell als „städtischer Luftpost-Transport (unbezahltes Praktikum)“ eingestuft ist. 
 
 - #physical_rcs
 
 # Individual
 
 @rbph_ind_rural
-title: Rural home, land, vehicle and tools
+title: Ländliches Zuhause, Land, Fahrzeug und Werkzeuge
 view-if: part-of = "individual"
 on-arrival: rb-physical = "Rural home, land, vehicle and tools"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Rural home, land, vehicle and tools
+Me: Ländliches Zuhause, Land, Fahrzeug und Werkzeuge
 
 @rbph_ind_urban
-title: City apartment, bicycle and digital equipment
+title: Stadtwohnung, Fahrrad und digitale Ausrüstung
 view-if: part-of = "individual"
 on-arrival: rb-physical = "City apartment, bicycle and digital equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: City apartment, bicycle and digital equipment
+Me: Stadtwohnung, Fahrrad und digitale Ausrüstung
 
 @rbph_ind_nomad
-title: Mobile home and portable gear
+title: Wohnmobil und tragbare Ausrüstung
 view-if: part-of = "individual"
 on-arrival: rb-physical = "Mobile home and portable gear"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Mobile home and portable gear
+Me: Wohnmobil und tragbare Ausrüstung
 
 # Group
 
 @rbph_grp_commune
-title: Shared land, housing and community facilities
+title: Gemeinsames Land, Wohnraum und Gemeinschaftseinrichtungen
 view-if: part-of = "group"
 on-arrival: rb-physical = "Shared land, housing and community facilities"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Shared land, housing and community facilities
+Me: Gemeinsames Land, Wohnraum und Gemeinschaftseinrichtungen
 
 @rbph_grp_family_biz
-title: Family home, business premises and inventory
+title: Familienhaus, Geschäftsräume und Inventar
 view-if: part-of = "group"
 on-arrival: rb-physical = "Family home, business premises and inventory"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Family home, business premises and inventory
+Me: Familienhaus, Geschäftsräume und Inventar
 
 @rbph_grp_urban_col
-title: Shared apartment and creative workspace
+title: Gemeinsame Wohnung und kreativer Arbeitsraum
 view-if: part-of = "group"
 on-arrival: rb-physical = "Shared apartment and creative workspace"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Shared apartment and creative workspace
+Me: Gemeinsame Wohnung und kreativer Arbeitsraum
 
 # Agriculture
 
 @rbph_agr_farm
-title: Farmland and agricultural equipment
+title: Ackerland und landwirtschaftliche Geräte
 view-if: sector = "agriculture"
 on-arrival: rb-physical = "Farmland and agricultural equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Farmland and agricultural equipment
+Me: Ackerland und landwirtschaftliche Geräte
 
 @rbph_agr_coop
-title: Cooperative facilities and grain storage
+title: Genossenschaftsanlagen und Getreidelager
 view-if: sector = "agriculture"
 on-arrival: rb-physical = "Cooperative facilities and grain storage"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Cooperative facilities and grain storage
+Me: Genossenschaftsanlagen und Getreidelager
 
 @rbph_agr_ranch
-title: Ranch land, wildlife, livestock and facilities
+title: Ranchland, Wildtiere, Nutztiere und Anlagen
 view-if: sector = "agriculture"
 on-arrival: rb-physical = "Ranch land, wildlife, livestock and facilities"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Ranch land, wildlife, livestock and facilities
+Me: Ranchland, Wildtiere, Nutztiere und Anlagen
 
 # Business
 
 @rbph_bus_store
-title: Store buildings and retail equipment
+title: Ladengebäude und Verkaufsausstattung
 view-if: sector = "business"
 on-arrival: rb-physical = "Store buildings and retail equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Store buildings and retail equipment
+Me: Ladengebäude und Verkaufsausstattung
 
 @rbph_bus_insurance
-title: Office buildings and information technology
+title: Bürogebäude und Informationstechnologie
 view-if: sector = "business"
 on-arrival: rb-physical = "Office buildings and information technology"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Office buildings and information technology
+Me: Bürogebäude und Informationstechnologie
 
 @rbph_bus_hospitality
-title: Hotel buildings and guest amenities
+title: Hotelgebäude und Gästeinfrastruktur
 view-if: sector = "business"
 on-arrival: rb-physical = "Hotel buildings and guest amenities"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Hotel buildings and guest amenities
+Me: Hotelgebäude und Gästeinfrastruktur
 
 @rbph_bus_company
-title: Office premises and operational assets
+title: Büroräume und betriebliche Anlagen
 view-if: sector = "business"
 on-arrival: rb-physical = "Office premises and operational assets"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Office premises and operational assets
+Me: Büroräume und betriebliche Anlagen
 
 # Culture
 
 @rbph_cul_arts
-title: Arts venues and cultural equipment
+title: Kulturstätten und Ausstattung
 view-if: sector = "culture"
 on-arrival: rb-physical = "Arts venues and cultural equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Arts venues and cultural equipment
+Me: Kulturstätten und Ausstattung
 
 @rbph_cul_heritage
-title: Heritage buildings and preservation equipment
+title: Denkmalgebäude und Erhaltungsausrüstung
 view-if: sector = "culture"
 on-arrival: rb-physical = "Heritage buildings and preservation equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Heritage buildings and preservation equipment
+Me: Denkmalgebäude und Erhaltungsausrüstung
 
 @rbph_cul_newsroom
-title: Media facilities and broadcasting equipment
+title: Medienanlagen und Sendeausrüstung
 view-if: sector = "culture"
 on-arrival: rb-physical = "Media facilities and broadcasting equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Media facilities and broadcasting equipment
+Me: Medienanlagen und Sendeausrüstung
 
 # Education
 
 @rbph_edu_kindergarten
-title: Kindergarten buildings and playground equipment
+title: Kita-Gebäude und Spielplatzgeräte
 view-if: sector = "education"
 on-arrival: rb-physical = "Kindergarten buildings and playground equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Kindergarten buildings and playground equipment
+Me: Kita-Gebäude und Spielplatzgeräte
 
 @rbph_edu_school
-title: School buildings and educational equipment
+title: Schulgebäude und Lehrmittel
 view-if: sector = "education"
 on-arrival: rb-physical = "School buildings and educational equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: School buildings and educational equipment
+Me: Schulgebäude und Lehrmittel
 
 @rbph_edu_university
-title: University campus and research facilities
+title: Universitätscampus und Forschungseinrichtungen
 view-if: sector = "education"
 on-arrival: rb-physical = "University campus and research facilities"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: University campus and research facilities
+Me: Universitätscampus und Forschungseinrichtungen
 
 # Industry
 
 @rbph_ind_factory
-title: Factory buildings and production machinery
+title: Fabrikgebäude und Produktionsmaschinen
 view-if: sector = "industry"
 on-arrival: rb-physical = "Factory buildings and production machinery"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Factory buildings and production machinery
+Me: Fabrikgebäude und Produktionsmaschinen
 
 @rbph_ind_construction
-title: Construction equipment and building materials
+title: Baugeräte und Baumaterialien
 view-if: sector = "industry"
 on-arrival: rb-physical = "Construction equipment and building materials"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Construction equipment and building materials
+Me: Baugeräte und Baumaterialien
 
 @rbph_ind_logging
-title: Logging equipment and processing facilities
+title: Forstgeräte und Verarbeitungsanlagen
 view-if: sector = "industry"
 on-arrival: rb-physical = "Logging equipment and processing facilities"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Logging equipment and processing facilities
+Me: Forstgeräte und Verarbeitungsanlagen
 
 # Nonprofit
 
 @rbph_nonprofit_service
-title: Service facilities and community centres
+title: Soziale Einrichtungen und Gemeindezentren
 view-if: sector = "nonprofit"
 on-arrival: rb-physical = "Service facilities and community centres"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Service facilities and community centres
+Me: Soziale Einrichtungen und Gemeindezentren
 
 @rbph_nonprofit_advocacy
-title: Office facilities and campaign materials
+title: Büroräume und Kampagnenmaterialien
 view-if: sector = "nonprofit"
 on-arrival: rb-physical = "Office facilities and campaign materials"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Office facilities and campaign materials
+Me: Büroräume und Kampagnenmaterialien
 
 @rbph_nonprofit_climate
-title: Research facilities and conservation equipment
+title: Forschungseinrichtungen und Naturschutzausrüstung
 view-if: sector = "nonprofit"
 on-arrival: rb-physical = "Research facilities and conservation equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Research facilities and conservation equipment
+Me: Forschungseinrichtungen und Naturschutzausrüstung
 
 # Public service
 
 @rbph_pub_transport
-title: Public transport fleet and infrastructure
+title: ÖPNV-Flotte und Infrastruktur
 view-if: sector = "publicservice"
 on-arrival: rb-physical = "Public transport fleet and infrastructure"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Public transport fleet and infrastructure
+Me: ÖPNV-Flotte und Infrastruktur
 
 @rbph_pub_health
-title: Hospital buildings and medical equipment
+title: Krankenhausgebäude und medizinische Geräte
 view-if: sector = "publicservice"
 on-arrival: rb-physical = "Hospital buildings and medical equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Hospital buildings and medical equipment
+Me: Krankenhausgebäude und medizinische Geräte
 
 @rbph_pub_service
-title: Government buildings and public infrastructure
+title: Verwaltungsgebäude und öffentliche Infrastruktur
 view-if: sector = "publicservice"
 on-arrival: rb-physical = "Government buildings and public infrastructure"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Government buildings and public infrastructure
+Me: Verwaltungsgebäude und öffentliche Infrastruktur
 
 @rbph_pub_parks
-title: Protected lands and conservation equipment
+title: Schutzgebiete und Naturschutzausrüstung
 view-if: sector = "publicservice"
 on-arrival: rb-physical = "Protected lands and conservation equipment"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Protected lands and conservation equipment
+Me: Schutzgebiete und Naturschutzausrüstung
 
 # Policymaking
 
 @rbph_pol_policy
-title: Government buildings and national assets
+title: Regierungsgebäude und nationale Vermögenswerte
 view-if: sector = "policymaking"
 on-arrival: rb-physical = "Government buildings and national assets"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: Government buildings and national assets
+Me: Regierungsgebäude und nationale Vermögenswerte
 
 @rbph_pol_city
-title: City hall and municipal facilities
+title: Rathaus und kommunale Einrichtungen
 view-if: sector = "policymaking"
 on-arrival: rb-physical = "City hall and municipal facilities"
 go-to: 10_wum_rb_human
 tags: physical_rcs
 
-Me: City hall and municipal facilities
+Me: Rathaus und kommunale Einrichtungen
 
 @rbph_pol_intl
-title: Embassies and diplomatic facilities
+title: Botschaften und diplomatische Einrichtungen
 view-if: sector = "policymaking"
 on-arrival: rb-physical = "Embassies and diplomatic facilities"
 go-to: 10_wum_rb_human
 tags: physical_rcs
-
-Me: Embassies and diplomatic facilities

@@ -1,14 +1,14 @@
-﻿title: Info
+title: Info
 new-page: true
 
 # This scene contains information for the right sidebar.
 
-= Knowledge
+= Wissen
 
 - #info
 
 
 @back_to_start
-title: Go back to Start
+title: Zurück zum Start
 tags: info
 go-to: root

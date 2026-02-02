@@ -1,147 +1,147 @@
-title: Weak Link Checks
-subtitle: Identifying Vulnerabilities
+title: Prüfungen: Schwächste Verbindung
+subtitle: Schwachstellen erkennen
 new-page: true
 
-Facilyn: The weak link checks help you identify vulnerabilities in three different situations. A chain is only as strong as its weakest link, and the same applies to your decisions.
+Facilyn: Die Prüfungen zur schwächsten Verbindung helfen dir, Schwachstellen in drei unterschiedlichen Situationen zu erkennen. Eine Kette ist nur so stark wie ihr schwächstes Glied – und das gilt auch für deine Entscheidungen.
 
-Facilyn: Which type of weak link would you like to examine first with your example?
+Facilyn: Welche Art von schwächster Verbindung möchtest du mit deinem Beispiel zuerst betrachten?
 
 - #weak_links
 
 @social_weak_link
-title: Social Weak Link — Relationships
+title: Soziale Schwachstelle — Beziehungen
 on-arrival: wl-type-s = 1
 tags: weak_links
 
-Me: Social Weak Link — Relationships.
+Me: Soziale Schwachstelle — Beziehungen.
 
-Facilyn: The social weak link question reminds you to address a potential conflict in advance:
+Facilyn: Die Frage zur sozialen Schwachstelle erinnert dich daran, potenzielle Konflikte im Voraus zu klären:
 
-Facilyn: "Could this action, due to prevailing attitudes or beliefs, create a weak link between us and those whose support we need?" 
+Facilyn: „Könnte diese Maßnahme aufgrund derzeit vorherrschender Meinungen oder Glaubenssätze die Beziehung zwischen uns und den Personen, deren Unterstützung wir benötigen, schwächen?“ 
 
 - #social_wl
 
 @biological_weak_link
-title: Biological Weak Link — Organisms
+title: Biologische Schwachstelle — Organismen
 on-arrival: wl-type-b = 1
 tags: weak_links
 
-Me: Biological Weak Link — Organisms.
+Me: Biologische Schwachstelle — Organismen.
 
-Facilyn: The biological weak link is about addressing the greatest vulnerability when dealing with populations of plant or animal organisms:
+Facilyn: Die biologische Schwachstelle geht darum, die größte Verwundbarkeit zu treffen, wenn du mit Populationen von Pflanzen oder Tieren zu tun hast:
 
-Facilyn: "Does this action address the weakest point in the life cycle of this organism?"
+Facilyn: „Ist diese Maßnahme auf die schwächste Stelle im Lebenszyklus dieses Organismus gerichtet?“
 
 - #biological_wl
 
 @financial_weak_link
-title: Financial Weak Link — Production
+title: Finanzielle Schwachstelle — Produktion
 on-arrival: wl-type-f = 1
 tags: weak_links
 
-Me: Financial Weak Link — Production.
+Me: Finanzielle Schwachstelle — Produktion.
 
-Facilyn: The financial weak link is about three areas of production: resource conversion, product conversion, and marketing (or money conversion):
+Facilyn: Die finanzielle Schwachstelle bezieht sich auf drei Bereiche der Produktion: Ressourcenumwandlung, Produktumwandlung und Marketing (oder Geldumwandlung):
 
-Facilyn: "Does this action address the weakest link in the chain of production?"
+Facilyn: „Stärkt diese Aktion die Schwachstelle in der Produktionskette?“
 
 - #financial_wl
 
 @fqwl_clarification
-title: I need more clarification on weak links
+title: Ich brauche mehr Erklärung zu schwächsten Verbindungen
 tags: weak_links
 
-Me: I need more clarification on weak links.
+Me: Ich brauche mehr Erklärung zu schwächsten Verbindungen.
 
-Facilyn: If ignored, weak links lead to repeated setbacks or failure. Social weak links involve resistance from people whose support you need. Biological weak links are critical when managing land, while financial weak links identify the bottleneck in your production chain.
+Facilyn: Wenn man sie ignoriert, führen schwächste Verbindungen zu wiederholten Rückschlägen oder Scheitern. Soziale Schwachstellen bedeuten Widerstand von Menschen, deren Unterstützung du brauchst. Biologische Schwachstellen sind entscheidend im Landmanagement, und finanzielle Schwachstellen zeigen den Engpass in deiner Produktionskette.
 
-A security robot patrols the street, diligently checking every door handle while completely missing the open window on the first floor — a perfect example of missing the real weak link.
+Ein Sicherheitsroboter patrouilliert auf der Straße und prüft gewissenhaft jede Türklinke – übersieht dabei aber völlig das offene Fenster im ersten Stock: ein perfektes Beispiel dafür, die echte Schwachstelle zu verpassen.
 
 - #weak_links
 
 # Social Weak Link 
 
 @fqwl_social_pass
-title: No, it won't create conflict
+title: Nein, sie wird keinen Konflikt erzeugen
 on-arrival: wl-social = "no conflict"
 tags: social_wl
 
-Me: No, it won't create conflict.
+Me: Nein, sie wird keinen Konflikt erzeugen.
 
 - #weak_links
 
 @fqwl_social_fail
-title: Yes, it could create conflict
+title: Ja, sie könnte Konflikte erzeugen
 on-arrival: wl-social = "could create conflict"
 tags: social_wl
 
-Me: Yes, it could create conflict.
+Me: Ja, sie könnte Konflikte erzeugen.
 
 - #weak_links
 
 @fqwl_social_skip
-title: Skip this check
+title: Diese Frage überspringen
 on-arrival: wl-social = "Skip"
 tags: social_wl
 
-Me: Skip this check.
+Me: Diese Frage überspringen.
 
 - #weak_links
 
 # Biological Weak Link 
 
 @fqwl_biological_pass
-title: Yes, it addresses the weakest point
+title: Ja, sie trifft die schwächste Stelle
 on-arrival: wl-biological = "addresses weakest point"
 tags: biological_wl
 
-Me: Yes, it addresses the weakest point.
+Me: Ja, sie trifft die schwächste Stelle.
 
 - #weak_links
 
 @fqwl_biological_fail
-title: No, it does not address the weakest point
+title: Nein, sie trifft nicht die schwächste Stelle
 on-arrival: wl-biological = "does not address the weakest point"
 tags: biological_wl
 
-Me: No, it does not address the weakest point.
+Me: Nein, sie trifft nicht die schwächste Stelle.
 
 - #weak_links
 
 @fqwl_biological_skip
-title: Skip this check
+title: Diese Frage überspringen
 on-arrival: wl-biological = "Skip"
 tags: biological_wl
 
-Me: Skip this check.
+Me: Diese Frage überspringen.
 
 - #weak_links
 
 # Financial Weak Link 
 
 @fqwl_financial_pass
-title: Yes, it addresses the weakest link
+title: Ja, sie stärkt die Schwachstelle
 on-arrival: wl-financial = "addresses the weakest link"
 tags: financial_wl
 
-Me: Yes, it addresses the weakest link.
+Me: Ja, sie stärkt die Schwachstelle.
 
 - #weak_links
 
 @fqwl_financial_fail
-title: No, it does not address the weakest link
+title: Nein, sie stärkt die Schwachstelle nicht
 on-arrival: wl-financial = "does not address the weakest link"
 tags: financial_wl
 
-Me: No, it does not address the weakest link.
+Me: Nein, sie stärkt die Schwachstelle nicht.
 
 - #weak_links
 
 @fqwl_financial_skip
-title: Skip this check
+title: Diese Frage überspringen
 on-arrival: wl-financial = "Skip"
 tags: financial_wl
 
-Me: Skip this check.
+Me: Diese Frage überspringen.
 
 - #weak_links

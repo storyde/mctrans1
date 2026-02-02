@@ -1,35 +1,35 @@
-title: Filter Questions Result
-subtitle: Summary of your analysis
+title: Ergebnis der Filterfragen
+subtitle: Zusammenfassung deiner Einschätzung
 go-to: 31_fq_revisit
 new-page: true
 
-Facilyn: You have now run your decision through all seven context checks. Let's review the results.
+Facilyn: Du hast deine Entscheidung jetzt durch alle sieben Kontextfragen laufen lassen. Schauen wir uns die Ergebnisse an.
 
 # Cause and Effect
-Facilyn: **Cause and Effect**: [+ fltr-cause +]
+Facilyn: **Ursache und Wirkung**: [+ fltr-cause +]
 
 # Weak Link
-Facilyn: **Social Weak Link**: [+ wl-social +]
+Facilyn: **Soziale Schwachstelle**: [+ wl-social +]
 
-Facilyn: **Biological Weak Link**: [+ wl-biological +]
+Facilyn: **Biologische Schwachstelle**: [+ wl-biological +]
 
-Facilyn: **Financial Weak Link**: [+ wl-financial +]
+Facilyn: **Finanzielle Schwachstelle**: [+ wl-financial +]
 
 # Marginal Reaction
-Facilyn: **Marginal Reaction**: [+ fltr-marginal +]
+Facilyn: **Grenznutzen**: [+ fltr-marginal +]
 
 # Gross Profit
-Facilyn: **Gross Profit**: [+ fltr-profit +]
+Facilyn: **Rohgewinn**: [+ fltr-profit +]
 
 # Energy/Money
-Facilyn: **Energy/Money Source**: [+ em-source +]
+Facilyn: **Energie-/Geldquelle**: [+ em-source +]
 
-Facilyn: **Energy/Money Use**: [+ em-use +]
+Facilyn: **Energie-/Geldverwendung**: [+ em-use +]
 
 # Sustainability
-Facilyn: **Behaviour**: [+ sus-behaviour +]
+Facilyn: **Verhalten**: [+ sus-behaviour +]
 
-Facilyn: **Environment**: [+ sus-environment +]
+Facilyn: **Umwelt**: [+ sus-environment +]
 
 # Gut Feel
-Facilyn: **Gut Feel**: [+ fltr-gut +]
+Facilyn: **Bauchgefühl**: [+ fltr-gut +]

@@ -1,55 +1,55 @@
-title: Finalize the weak link check
-subtitle: Next filter question
-unavailable-subtitle: Consider all three areas first
+title: Schwächste Verbindung abschließen
+subtitle: Nächste Filterfrage
+unavailable-subtitle: Betrachte zuerst alle drei Bereiche
 order: 10
 choose-if: wl-type-s = 1 and wl-type-b = 1 and wl-type-f = 1
 new-page: true
 tags: weak_links
 
-Facilyn: The marginal reaction check helps you optimize your use of time, money, and energy when comparing two or more actions that have passed the other checks: 
+Facilyn: Die Grenznutzen-Frage hilft dir, den Einsatz von Zeit, Geld und Energie zu optimieren, wenn du zwei oder mehr Maßnahmen vergleichst, die die anderen Fragen bestanden haben: 
 
-Facilyn: "Which action will provide the greatest return toward the goal for each additional unit of money or time invested?"
+Facilyn: „Welche Maßnahme bringt im Hinblick auf das Ziel für jede zusätzlich investierte Geld- oder Zeiteinheit den größten Nutzen?“
 
 - #marginal_reaction
 
 @fqmr_clarification
-title: I need help understanding this check
+title: Ich brauche Hilfe, diese Frage zu verstehen
 tags: marginal_reaction
 
-Me: I need help understanding this check.
+Me: Ich brauche Hilfe, diese Frage zu verstehen.
 
-Facilyn: Think of it as asking "What's the biggest bang for your buck?" Compare not just the total benefits, but the benefits relative to what you're investing. A small action with modest benefits might have better returns than a large action with bigger benefits if it requires much less investment.
+Facilyn: Denk daran wie an die Frage: „Was bringt mir am meisten fürs eingesetzte Geld?“ Vergleiche nicht nur den Gesamtnutzen, sondern den Nutzen relativ zu dem, was du investierst. Eine kleine Maßnahme mit bescheidenem Nutzen kann die bessere Rendite haben als eine große Maßnahme mit größerem Nutzen, wenn sie viel weniger Ressourcen verschlingt.
 
-Facilyn: Consider time, money, energy, and opportunity costs - what else could you do with those same resources?
+Facilyn: Berücksichtige Zeit, Geld, Energie und Opportunitätskosten – was könntest du sonst mit denselben Ressourcen tun?
 
-A cargo robot pauses beside a stack of containers, apparently reassessing the cost-benefit of lifting anything ever again.
+Ein Frachroboter hält neben einem Stapel Container an und scheint die Kosten-Nutzen-Rechnung des Hebens generell neu zu überdenken.
 
 - #marginal_reaction
 
 @fqmr_pass
-title: It provides the highest return on investment
+title: Sie liefert die höchste Rendite
 on-arrival: fltr-marginal = "highest return"
 go-to: 26_fq_gross_profit
 tags: marginal_reaction
 
-Me: It provides the highest return on investment.
+Me: Sie liefert die höchste Rendite.
 
-Facilyn: Excellent. You've identified this as the most efficient use of your resources among available options. This suggests strong alignment with resource optimization principles.
+Facilyn: Ausgezeichnet. Du hast diese Option als effizienteste Nutzung deiner Ressourcen unter den verfügbaren Möglichkeiten erkannt. Das passt gut zu Prinzipien der Ressourceneffizienz.
 
 @fqmr_fail
-title: It does not provide the highest return on investment
+title: Sie liefert nicht die höchste Rendite
 on-arrival: fltr-marginal = "lower return"
 go-to: 26_fq_gross_profit
 tags: marginal_reaction
 
-Me: It does not provide the highest return on investment.
+Me: Sie liefert nicht die höchste Rendite.
 
-Facilyn: An honest evaluation. This suggests you might want to reconsider this action or find ways to improve its efficiency. Sometimes poor returns are justified by other benefits, but it's important to be conscious of this trade-off.
+Facilyn: Eine ehrliche Einschätzung. Das deutet darauf hin, dass du diese Maßnahme überdenken oder Wege finden solltest, ihre Effizienz zu verbessern. Manchmal sind geringe Renditen durch andere Vorteile gerechtfertigt – aber wichtig ist, dass du dir dieses Trade-offs bewusst bist.
 
 @fqmr_skip
-title: Not sure, let's move on
+title: Nicht sicher – weiter
 on-arrival: fltr-marginal = "skip"
 go-to: 26_fq_gross_profit
 tags: marginal_reaction
 
-Me: Not sure, let's move on.
+Me: Nicht sicher – weiter.
