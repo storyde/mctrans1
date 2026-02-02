@@ -1,0 +1,45 @@
+title: Finalize my decision
+tags: revisit_skips
+
+Me: Finalize my decision.
+
+Facilyn: Congratulations! You've now experienced the complete Holistic Management framework. You've defined your whole, created your quality of life statement, described your future resource base, and learned to apply all seven context checks.
+
+Facilyn: This framework will serve you well, use it wisely, share it generously, and remember that every decision is an opportunity to move toward the future you envision.
+
+Facilyn: And remember, when managing complexity, conditions always change and what seems right today may still fail tomorrow — so begin by assuming you're wrong. Monitor your actions, correct and replan. This is doubly vital when your actions touch the land.
+
+You and Facilyn talk quietly as the storm outside runs its course. When it finally settles, and you prepare to leave the teahouse, she looks up and says:
+
+Facilyn: I really enjoyed our time together. But this is only the beginning. When we meet again, I’d love to explore how we might design a regenerative economy aligned with life — or even learn how to calm these dust storms.
+
+- #final_choices
+
+@need_resources
+title: I need resources for continued learning
+tags: final_choices
+
+Me: I need resources for continued learning.
+
+Facilyn: The Savory Institute offers extensive resources, training programs, and a global community of practitioners. Local Holistic Management groups exist in many regions. Books, online courses, and workshops can deepen your understanding.
+
+Facilyn: Most importantly, practice using the framework regularly. Start with small decisions and work up to larger ones as you become more comfortable with the process.
+
+A librarian robot wheels by carrying a stack of books on sustainable systems, apparently on its way to update the teahouse's resource collection with the latest thinking on regenerative practices.
+
+@start_over
+title: I'd like to start the framework from the beginning
+game-over: true
+tags: final_choices
+
+Me: I'd like to start the framework from the beginning.
+
+Javascript: {! <script>
+if (
+  typeof window !== 'undefined' &&
+  window.location &&
+  typeof window.location.reload === 'function'
+) {
+  setTimeout(window.location.reload.bind(window.location), 100);
+}
+</script> !}

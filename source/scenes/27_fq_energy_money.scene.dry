@@ -1,0 +1,100 @@
+﻿title: Energy/Money Source Check
+subtitle: Sustainable Resource Management
+new-page: true
+
+Facilyn: The next check applies to both energy and money and has two parts. 
+
+Facilyn: The first part examines the source:
+
+Facilyn: "Is the energy or money to be used in this action derived from the most appropriate source in terms of our holistic context?"
+
+- #em_source
+
+# Source
+
+@fqem_source_clarification
+title: I need help understanding this check
+tags: em_source
+
+Me: I need help understanding this check.
+
+Facilyn: Is it unlimited/renewable/internal (appropriate) or limited/polluting/external with strings attached (inappropriate)?
+
+- #em_source
+
+@fqem_source_pass
+title: The source is appropriate
+on-arrival: em-source = "appropriate"
+go-to: fqem_use_intro
+tags: em_source
+
+Me: The source is appropriate.
+
+Facilyn: Good. Using renewable, internal, or non-damaging sources builds resilience.
+
+@fqem_source_issues
+title: There are issues with the source
+on-arrival: em-source = "issues"
+go-to: fqem_use_intro
+tags: em_source
+
+Me: There are issues with the source.
+
+Facilyn: Noting this is important. Relying on finite or external sources with strings attached can create vulnerability.
+
+@fqem_source_skip
+title: Skip source check
+on-arrival: em-source = "skip"
+go-to: fqem_use_intro
+tags: em_source
+
+Me: Skip source check.
+
+# Use
+
+@fqem_use_intro
+title: Energy/Money Use Check
+
+Facilyn: Now the second part of this filter is about the use:
+
+Facilyn: "Will the way in which the energy or money is used be in line with our holistic context?"
+
+- #em_use
+
+@fqem_use_clarification
+title: I need help understanding this check
+tags: em_use
+
+Me: I need help understanding this check.
+
+Facilyn: Is it for infrastructure/cyclical (constructive) or merely consumptive/addictive (potentially destructive)?
+
+- #em_use
+
+@fqem_use_pass
+title: The use is appropriate
+on-arrival: em-use = "appropriate"
+go-to: 28_fq_sustainability
+tags: em_use
+
+Me: The use is appropriate.
+
+Facilyn: Excellent. Investing in infrastructure or cyclical growth creates lasting value.
+
+@fqem_use_issues
+title: There are issues with the use
+on-arrival: em-use = "issues"
+go-to: 28_fq_sustainability
+tags: em_use
+
+Me: There are issues with the use.
+
+Facilyn: Be cautious. Consumptive or addictive uses can drain resources without rebuilding them.
+
+@fqem_use_skip
+title: Skip use check
+on-arrival: em-use = "skip"
+go-to: 28_fq_sustainability
+tags: em_use
+
+Me: Skip use check.

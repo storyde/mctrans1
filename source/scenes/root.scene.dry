@@ -1,0 +1,20 @@
+title: Manage Complexity
+new-page: true  
+
+= Manage Complexity
+
+Get a taste of how our world is managed into crisis — and learn a framework to prevent it.
+
+- @start_game: Start
+- @go_to_credits: Credits
+- @test_choice: Test_choice
+
+@start_game
+go-to: 2_intro
+
+@go_to_credits
+go-to: credits
+
+@test_choice
+subtitle: Test another choice
+go-to: zz_test

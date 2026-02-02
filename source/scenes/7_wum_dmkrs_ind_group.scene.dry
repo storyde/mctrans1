@@ -1,0 +1,81 @@
+title: Got it
+view-if: part-of = "individual"
+tags: whole_u_mgmt
+
+Me: Got it.
+
+Facilyn: Let's start with the decision-makers. Do you want to focus on yourself for now? Or shall we expand the "whole" a little bit and include anyone you live or decide together with or who has veto power over your decisions? 
+
+- #decision_makers
+
+@dmkrs_explanation
+title: Why involve everyone?
+tags: decision_makers
+
+Me: Why involve everyone?
+
+Facilyn: Leaving out affected parties risks conflict and makes the holistic context meaningless to those excluded.
+
+In front of the teahouse, a post robot rolls by, apparently trying to deliver mail to a fire hydrant. It's going at this for minutes, convinced the hydrant is a very quiet resident.
+
+- #decision_makers
+
+@dmkrs_me
+title: Just me
+view-if: part-of = "individual"
+on-arrival: decision-makers = "Just me"
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Just me. I am making the decisions in my life.
+
+Facilyn: Perfect. Then we treat you as the only decision maker.
+
+@dmkrs_include_more
+title: Include more people
+view-if: part-of = "individual"
+on-arrival: decision-makers = "Me and people I live or decide with"; part-of = "group"
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Let's include the people I live or decide with, and anyone with veto power.
+
+Facilyn: Great. We will treat all of you together as the decision makers in your whole under management.
+
+@wum_dmkrs_group
+title: Got it
+view-if: part-of = "group"
+tags: whole_u_mgmt
+
+Me: Got it.
+
+Facilyn: Let's start with the decision-makers. In your group, who is making decisions? Who is expected to carry out these decisions and are there any other people with veto power over your decisions? 
+
+Facilyn: Try to be inclusive rather than exclusive. 
+
+- #decision_makers
+
+# Group
+
+@dmkrs_group_and_veto
+title: Group members 
+subtitle: and the people with veto power
+view-if: part-of = "group"
+on-arrival: decision-makers = "Group members and others with veto power"
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Group members and others with veto power.
+
+Facilyn: Good. That gives us the decision makers for your whole under management.
+
+@dmkrs_group_no_veto
+title: Just us
+view-if: part-of = "group"
+on-arrival: decision-makers = "Just us"
+go-to: 9_wum_rb_physical
+tags: decision_makers
+
+Me: Just us.
+
+Facilyn: Good. That gives us the decision makers for your whole under management.

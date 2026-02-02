@@ -1,0 +1,40 @@
+﻿title: Start 
+tags: root
+
+= In the not-so-distant future, ...  
+
+... a not-so-distant country grapples with the symptoms of the polycrisis.
+
+And the robots? They are doing their own thing now.
+
+You arrive in the middle of it all, searching for the teahouse to catch up with an old friend. 
+
+You came here:  
+
+- #here_with
+
+@by_yourself
+title: On my own 
+subtitle: Currently without company
+on-arrival: part-of = "individual"
+go-to: 3_harbour
+tags: here_with
+
+Me: On my own. My friend invited me to learn about a new management framework.
+
+@with_group
+title: With family or friends
+on-arrival: part-of = "group"
+go-to: 3_harbour
+tags: here_with
+
+Me: As a group. Our friend invited us to learn about a new management framework.
+
+@for_organization
+title: On behalf of my organisation
+subtitle: Or with colleagues
+on-arrival: part-of = "org"
+go-to: 3_harbour
+tags: here_with
+
+Me: On behalf of my organisation. Our friend invited us to learn about a new management framework.

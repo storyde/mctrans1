@@ -1,0 +1,55 @@
+title: Finalize the weak link check
+subtitle: Next filter question
+unavailable-subtitle: Consider all three areas first
+order: 10
+choose-if: wl-type-s = 1 and wl-type-b = 1 and wl-type-f = 1
+new-page: true
+tags: weak_links
+
+Facilyn: The marginal reaction check helps you optimize your use of time, money, and energy when comparing two or more actions that have passed the other checks: 
+
+Facilyn: "Which action will provide the greatest return toward the goal for each additional unit of money or time invested?"
+
+- #marginal_reaction
+
+@fqmr_clarification
+title: I need help understanding this check
+tags: marginal_reaction
+
+Me: I need help understanding this check.
+
+Facilyn: Think of it as asking "What's the biggest bang for your buck?" Compare not just the total benefits, but the benefits relative to what you're investing. A small action with modest benefits might have better returns than a large action with bigger benefits if it requires much less investment.
+
+Facilyn: Consider time, money, energy, and opportunity costs - what else could you do with those same resources?
+
+A cargo robot pauses beside a stack of containers, apparently reassessing the cost-benefit of lifting anything ever again.
+
+- #marginal_reaction
+
+@fqmr_pass
+title: It provides the highest return on investment
+on-arrival: fltr-marginal = "highest return"
+go-to: 26_fq_gross_profit
+tags: marginal_reaction
+
+Me: It provides the highest return on investment.
+
+Facilyn: Excellent. You've identified this as the most efficient use of your resources among available options. This suggests strong alignment with resource optimization principles.
+
+@fqmr_fail
+title: It does not provide the highest return on investment
+on-arrival: fltr-marginal = "lower return"
+go-to: 26_fq_gross_profit
+tags: marginal_reaction
+
+Me: It does not provide the highest return on investment.
+
+Facilyn: An honest evaluation. This suggests you might want to reconsider this action or find ways to improve its efficiency. Sometimes poor returns are justified by other benefits, but it's important to be conscious of this trade-off.
+
+@fqmr_skip
+title: Not sure, let's move on
+on-arrival: fltr-marginal = "skip"
+go-to: 26_fq_gross_profit
+tags: marginal_reaction
+
+Me: Not sure, let's move on.

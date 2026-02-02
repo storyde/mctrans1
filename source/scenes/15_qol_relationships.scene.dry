@@ -1,0 +1,55 @@
+title: Relationships
+subtitle: How We Connect With Others
+
+Facilyn: The next part is about relationships. Focus on the outcomes you want, not the behaviours. Describe the kind of relationships that result from respectful, caring behaviour, rather than the behaviour itself.
+
+Facilyn: What kind of relationship quality matters most to you?
+
+- #relationship_aspects
+
+@qolr_explanation
+title: What do you mean exactly?
+max-visits: 1
+tags: relationship_aspects
+
+Me: What do you mean exactly?
+
+Facilyn: Think about it this way — instead of saying that better communication is needed to improve a relationship, describe what a good relationship looks like: "We work as a team that communicates effectively, remains calm under pressure and has fun together."
+
+Facilyn: You're painting a picture of the relationship qualities that will emerge when people treat each other with respect and care.
+
+A harbour-bot and a lighthouse-bot linger at a lonely buoy, trading sea-glass and jokes after a long night guiding ships — until the buoy starts giggling and confesses it’s actually a tiny submarine-bot that parked there for the company.
+
+- #relationship_aspects
+
+@qolr_harmony_care
+title: Harmony, care and enjoying our time together
+on-arrival: qol-relationships = "Harmony, care and enjoying our time together"
+go-to: 16_qol_challenge_growth
+tags: relationship_aspects
+
+Me: Harmony, care and enjoying our time together.
+
+@qolr_open_communication
+title: Open communication, mutual trust and enjoying each other's company
+on-arrival: qol-relationships = "Open communication, mutual trust and enjoying each other's company"
+go-to: 16_qol_challenge_growth
+tags: relationship_aspects
+
+Me: Open communication, mutual trust and enjoying each other's company.
+
+@qolr_effective_teamwork
+title: Effective collaboration, mutual understanding and having fun together
+on-arrival: qol-relationships = "Effective collaboration, mutual understanding and having fun together"
+go-to: 16_qol_challenge_growth
+tags: relationship_aspects
+
+Me: Effective collaboration, mutual understanding and having fun together.
+
+@qolr_remaining_calm
+title: Remaining calm, supporting each other, and mutual respect
+on-arrival: qol-relationships = "Remaining calm, supporting each other, and mutual respect"
+go-to: 16_qol_challenge_growth
+tags: relationship_aspects
+
+Me: Remaining calm, supporting each other, and mutual respect.

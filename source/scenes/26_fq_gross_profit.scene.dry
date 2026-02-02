@@ -1,0 +1,59 @@
+﻿title: Gross Profit Analysis Check
+subtitle: Enterprise Selection
+new-page: true
+
+Facilyn: The gross profit analysis check helps you focus on activities that generate the best income relative to their additional costs:
+
+Facilyn: "Which enterprises contribute the most to covering the overheads of the business?"
+
+- #gross_profit
+
+@fqgp_clarification
+title: I need help understanding this check
+tags: gross_profit
+
+Me: I need help understanding this check.
+
+Facilyn: The difference between the money you spend for an enterprise and the money you get out of it is the gross profit.
+
+Facilyn: You are selecting the best enterprise or combination of enterprises to maximize profit while minimizing risk. This analysis takes a little longer than the other checks and requires pen and paper when evaluating new enterprises for your business.
+
+- #gross_profit
+
+@fqgp_pass
+title: It contributes the most to covering overheads
+on-arrival: fltr-profit = "highest contribution"
+go-to: 27_fq_energy_money
+tags: gross_profit
+
+Me: It contributes the most to covering overheads.
+
+Facilyn: Excellent. You've identified this as a high-performing enterprise that will help sustain your business.
+
+@fqgp_fail
+title: It contributes little to covering overheads
+on-arrival: fltr-profit = "contributes little"
+go-to: 27_fq_energy_money
+tags: gross_profit
+
+Me: It contributes little to covering overheads.
+
+Facilyn: You may want to reconsider if this is the best use of your resources, or if there are non-financial reasons that justify it.
+
+@fqgp_combination
+title: It is part of a good combination of enterprises
+on-arrival: fltr-profit = "good combination"
+go-to: 27_fq_energy_money
+tags: gross_profit
+
+Me: It is part of a good combination of enterprises.
+
+Facilyn: Good. Sometimes a mix of enterprises creates the best stability and profit, even if one isn't the absolute highest earner on its own.
+
+@fqgp_skip
+title: Not sure, let's move on
+on-arrival: fltr-profit = "skip"
+go-to: 27_fq_energy_money
+tags: gross_profit
+
+Me: Not sure, let's move on.
