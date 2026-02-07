@@ -20,7 +20,7 @@ on-arrival: part-of = "individual"
 go-to: 3_harbour
 tags: here_with
 
-Me: Allein. Facylin hat mich eingeladen, ein neues Management-Framework kennenzulernen.
+Me: Allein. Eine Freundin hat mich eingeladen, ein neues Management-Framework kennenzulernen.
 
 @with_group
 title: Mit Familie oder Freunden
@@ -28,7 +28,7 @@ on-arrival: part-of = "group"
 go-to: 3_harbour
 tags: here_with
 
-Me: Als Gruppe. Facylin hat uns eingeladen, ein neues Management-Framework kennenzulernen.
+Me: Als Gruppe. Eine Freundin hat uns eingeladen, ein neues Management-Framework kennenzulernen.
 
 @for_organization
 title: Im Auftrag meiner Organisation
@@ -37,4 +37,4 @@ on-arrival: part-of = "org"
 go-to: 3_harbour
 tags: here_with
 
-Me: Im Auftrag meiner Organisation. Unsere Freundin hat uns eingeladen, ein neues Management-Framework kennenzulernen.
+Me: Im Auftrag meiner Organisation. Eine Freundin hat uns eingeladen, ein neues Management-Framework kennenzulernen.
