@@ -76,7 +76,7 @@
 die eigentliche Ursache des
 Problems?“
 
-1. Schwächste Verbindung.
+2. Schwächste Verbindung.
 
 SOZIALE SCHWACHSTELLE
 
@@ -101,7 +101,7 @@ FINANZIELLE SCHWACHSTELLE
 diese Aktion die Schwachstelle
 in der Produktionskette?”
 
-1. Grenznutzen
+3. Grenznutzen
 
 „Welche Maßnahme bringt im
 Hinblick auf das Ziel für jede
@@ -109,13 +109,13 @@ zusätzlich investierte Geld-
 oder Zeiteinheit den größten
 Nutzen?”
 
-1. Rohgewinnanalyse
+4. Rohgewinnanalyse
 
 „Welche Unternehmensbereiche
 tragen am meisten zur Deckung
 der Gemeinkosten bei?“
 
-1. Energie-/Geldquelle und deren Verwendung.
+5. Energie-/Geldquelle und deren Verwendung.
 
 „Stammt die Energie oder
 das Geld für diese Maßnahme
@@ -134,7 +134,7 @@ GELDQUELLEN
 FORMEN DER ENERGIE- UND
 GELDVERWENDUNG
 
-1. Nachhaltigkeit
+6. Nachhaltigkeit
 
 „Wird diese Maßnahme in die
 Richtung der im ganzheitlichen
@@ -142,7 +142,7 @@ Kontext beschriebenen
 zukünftigen Ressourcenbasis
 führen oder eher weg davon?“
 
-1. Bauchgefühl
+7. Bauchgefühl
 
 „Wie fühle ich mich jetzt mit
 dieser Maßnahme? Wird sie
