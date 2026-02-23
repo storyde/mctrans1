@@ -1,4 +1,17 @@
 (function() {
+  (function() {
+    var savedTheme = localStorage.getItem('game-theme');
+    var systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var theme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
+    var root = document.documentElement;
+    root.classList.remove('theme-light', 'theme-dark');
+    root.classList.add(theme === 'dark' ? 'theme-dark' : 'theme-light');
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) {
+      meta.setAttribute('content', theme === 'dark' ? '#0A1419' : '#F0F5F9');
+    }
+  }());
+
   var game;
   var ui;
   var currentTheme = 'light';
@@ -467,9 +480,7 @@
     }
   }
 
-  // This function allows you to modify the text before it's displayed.
-  // E.g. wrapping chat-like messages in spans.
-  window.displayText = function(text) {
+  window.displayParagraphHTML = function(html) {
     const mapping = {
       'Me: ':          'me',
       'Facilyn: ':     'cfa',
@@ -482,9 +493,8 @@
       'Narration: ':   'na'
     };
 
-    // Character profile images from Unsplash
     const profileImages = {
-      'cfa': 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+      'cfa': 'assets/pics/profile-facilyn.jpg',
       'cve': 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face',
       'cst': 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
       'cdr': 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face',
@@ -493,7 +503,6 @@
       'ch3': 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face'
     };
 
-    // Character full names for bubble headers
     const characterNames = {
       'cfa': 'Facilyn',
       'cve': 'Vendor',
@@ -508,38 +517,45 @@
       'can': 'Announcement',
       'crv': 'Robo Voice',
       'crw': 'Robo Writing',
-      'chi': 'Hint'
+      'chi': 'Hint',
+      'cre': 'Result'
     };
 
     for (const prefix in mapping) {
-      if (text.startsWith(prefix)) {
+      if (html.startsWith(prefix)) {
         const cls = mapping[prefix];
-        const content = text.slice(prefix.length);
+        const content = html.slice(prefix.length);
 
-        if (cls === 'na') {
-          // Narration – centered, with .na
-          return `
-            <div class="chat-line narration">
-              <div class="bubble na">${content}</div>
-            </div>`;
-        }
-        else if (cls === 'me') {
-          // Me – right, profileabbrevation right
+        if (cls === 'me') {
           return `
             <div class="chat-line me">
               <div class="bubble me">${content}</div>
               <span class="profile me">Me</span>
-            </div>`;
-        }
-        else if (cls === 'ch1' || cls === 'ch2' || cls === 'ch3') {
-          // Headlines – no profile, no name, newspaper style
+            </div>
+          `;
+        } else if (cls === 'na') {
+          return `
+            <div class="chat-line narration">
+              <div class="bubble na">${content}</div>
+            </div>
+          `;
+        } else if (
+          cls === 'cis' || cls === 'cds' || cls === 'cws' ||
+          cls === 'can' || cls === 'crv' || cls === 'crw' ||
+          cls === 'chi' || cls === 'cre'
+        ) {
+          return `
+            <div class="chat-line accent">
+              <div class="bubble ${cls}">${content}</div>
+            </div>
+          `;
+        } else if (cls === 'ch1' || cls === 'ch2' || cls === 'ch3') {
           return `
             <div class="chat-line headline">
               <div class="bubble ${cls}">${content}</div>
-            </div>`;
-        }
-        else {
-          // Other characters – profile image left, name in bubble
+            </div>
+          `;
+        } else {
           const profileImg = profileImages[cls];
           const characterName = characterNames[cls];
           return `
@@ -551,12 +567,26 @@
                 <div class="bubble-sender-name ${cls}">${characterName}</div>
                 ${content}
               </div>
-            </div>`;
+            </div>
+          `;
         }
       }
     }
 
-    // No known prefix → just text
+    return `<p>${html}</p>`;
+  };
+
+  window.displayText = function(text) {
+    if (typeof text !== 'string') {
+      return text;
+    }
+    var lang = (document.documentElement && document.documentElement.lang) ? document.documentElement.lang : 'en';
+    if (text === 'Continue...') {
+      if (lang === 'de') {
+        return 'Weiter…';
+      }
+      return 'Continue...';
+    }
     return text;
   };
 
@@ -636,7 +666,7 @@
   };
 
   // TODO: change this!
-  var TITLE = "TestStory" + '_' + "storyde";
+  var TITLE = "Manage Complexity" + '_' + "manage-complexity";
 
   window.quickSave = function() {
       var saveString = JSON.stringify(window.dendryUI.dendryEngine.getExportableState());
