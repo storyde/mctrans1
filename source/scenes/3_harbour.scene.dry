@@ -1,155 +1,126 @@
 title: Das Teehaus finden  
 subtitle: Auf dem Weg zum Teehaus  
-on-arrival: poly-what = 1
-on-departure: poly-what = 0
 
 Du erreichst den alten Hafen.
 
-Infoscreens wechseln sich mit kleinen Läden ab. 
-Eine Lieferdrohne kreist über dir und sucht nach dem besten Winkel für ein Selfie.  
+Am Kai steht ein Händler vor einem klapprigen Tank und füllt Wasser in gebrauchte Flaschen.  
+
+Eine Lieferdrohne kreist über dem Wasser und sucht nach dem besten Winkel für ein Selfie.  
 
 Im Hinterland braut sich ein Staubsturm zusammen, dessen Körner dir schon jetzt im Hals kratzen.
 
-In der Nähe murmelt jemand etwas von der Polykrise...
-
-- #harbour
-
-@the_stranger  
-title: Die Poly-was?  
-subtitle: Ist eine normale Krise nicht schon schlimm genug?  
-view-if: poly-what = 1
-tags: harbour
-
-Me: Die Poly-was?  
-
-Der Fremde mustert dich amüsiert.  
-
-Stranger: Von Polykrise spricht man, wenn soziale, wirtschaftliche und ökologische Herausforderungen nicht mehr schön der Reihe nach kommen ... sondern gemeinsam auf einmal über uns hereinbrechen.  
-
-- @stranger_teahouse_directions
-- @vendor_scene 
-- @info_screen  
-
-@stranger_teahouse_directions
-title: Nach dem Weg zum Teehaus fragen
-on-arrival: know-sidestreet = 1 
-
-Me: Hey, bevor du gehst: Kannst du mir sagen, wie ich zum Teehaus komme?
-
-Stranger: Klar, da lang. Folge einfach den roten Bannern; die führen dich direkt hin.
-
-Er zeigt in eine Seitenstraße und verschwindet dann in der Menge.
-
-- #harbour
-
-@info_screen  
-title: Den Infoscreen lesen
-tags: harbour
-max-visits: 1
-
-Du trittst näher an einen der Infoscreens heran. Bilder flackern auf: die Megabrände der letzten Woche, Hungerzonen, Hitzewellen und Proteste.
-
-Die Schlagzeilen warnen:  
-
-Headline1: Unruhen eskalieren.
-
-Headline1: Stromausfälle dauern weiter an.
-
-Headline2: Globale Ernten auf Rekordtief.  
-
-Headline3: Wasserknappheit verschärft sich.  
+Zwischen Wasser, Staub und Drohnen musst du entscheiden, wohin du zuerst gehst.  
 
 - #harbour
 
 @vendor_scene  
-title: Wasser bei einem Händler kaufen  
+title: Gehe zu einem Wasserhändler  
 tags: harbour
 max-visits: 1
 
-Ein Händler wedelt mit einer gesprungenen Filterflasche in deine Richtung.  
+Du gehst zu dem Tank hinüber. An ihm hängen verblichene Plakate, vom Staub halb zugeklebt. 
 
-Vendor: Ein Schluck für eine Münze. Oder du läufst durstig weiter.  
+Du erkennst die Reste der Überschriften: 
+Headline1: „Ernten im Umland brechen um 70% ein“. 
 
-- @pay_vendor
-- @haggle_vendor
+Headline2: „Stromabschaltungen treffen zuerst die Randgebiete“. 
+
+Headline3: „Die Polykrise nimmt an Fahrt auf“. 
+
+Vendor: Ein Schluck für eine Münze. Oder du läufst durstig weiter. 
+
+- #vendor
 
 @pay_vendor  
-title: Etwas Krypto geben 
-
-Du gibst etwas Krypto. Das Wasser schmeckt metallisch, aber es lindert das Kratzen im Hals.  
-
-- @vendor_teahouse_directions
-
-@haggle_vendor  
-title: Mit dem Händler feilschen
-
-Me: Das ist Wucher. Eine halbe Münze.  
-
-Der Händler kneift die Augen zusammen und zuckt dann mit den Schultern.  
-Vendor: Na gut. Die Hälfte. Du wirst dir wünschen, du hättest mehr gekauft.  
-
-Das Wasser ist dünn, aber kühl. Genug, um deine Zunge zu beruhigen.  
-
-- @vendor_teahouse_directions 
-
-@vendor_teahouse_directions
-title: Nach dem Teehaus fragen
-on-arrival: know-sidestreet = 1 
-
-Me: Weißt du, wo das Teehaus ist?
-
-Der Händler deutet eine Seitenstraße hinunter.  
-
-Vendor: Folge den roten Bannern. Du kannst es nicht verfehlen.  
-
-- #harbour
-
-@people_drawing
-title: Nach dem Weg zum Teehaus fragen
-tags: harbour
+title: Gib ihm etwas Krypto
+tags: vendor
 max-visits: 1
 
-Du siehst ein paar Leute, die zusammen mit ihren Kindern Formen in den Staub kratzen.  
+Du gibst ihm etwas Krypto. Das Wasser schmeckt metallisch, aber es nimmt das Kratzen aus deinem Hals. 
 
-Als du näher kommst, erkennst du die Logos von NASA, WHO, WWF und anderen Organisationen.  
+Der Händler nickt dir zu, als würde er abwarten, ob du noch etwas wissen willst.  
 
-- @why_drawing  
-- @people_teahouse_directions
+- #vendor
 
-@why_drawing  
-title: Fragen, warum sie das zeichnen
-
-Me: Warum zeichnet ihr das?
-
-Drawer: Damit wir nicht vergessen, wer versucht, was zu reparieren, selbst wenn es nicht hält.  
-
-Der Staub von den nahegelegenen Feldern weht die Zeichnungen davon. 
-
-Es ist eine stille Erinnerung: Ohne funktionierende Landwirtschaft würden die meisten Organisationen nicht einmal existieren.  
-
-- @people_teahouse_directions
-
-@people_teahouse_directions
-title: Fragen, wo das Teehaus ist
+@ask_direction 
+title: Nach dem Weg fragen
 on-arrival: know-sidestreet = 1 
+tags: vendor
+max-visits: 1
 
-Me: Wisst ihr, wo das Teehaus ist?
+Me: Kannst du mir sagen, wie ich zum Teehaus komme?
 
-Eine Person zeigt in eine Seitenstraße.  
-Drawer: Folge den roten Bannern. Du kannst es nicht verfehlen.  
+Vendor: Immer am Wasser entlang, bis zum langen Pier mit dem kleinen Leuchtturm am Ende. 
+Unten im alten Speicher ist das Teehaus. Du erkennst es an den Papierlaternen. Die lassen sie auch bei Sturm draußen. 
 
-- #harbour
+Du bedankst dich, folgst seinem Blick am Wasser entlang und gehst los. 
 
-@side-street
-title: Zum Teehaus gehen
+- @child_drawing
+
+@ask_policrisis  
+title: Nach der Polykrise fragen
+on-arrival: know-sidestreet = 1 
+tags: vendor
+max-visits: 1
+
+Me: Was bitte ist eine Polykrise? 
+
+Der Händler zieht die Augenbrauen hoch und deutet mit dem Kinn auf den Hafen. 
+
+Vendor: Früher war es einfach: Erst kam eine Dürre, dann vielleicht eine Krise. Eins nach dem anderen. 
+
+Er zählt mit den Fingern ab. 
+
+Vendor: Jetzt brennen die Felder, während der Strom ausfällt, während die Preise hochschießen, während Menschen fliehen. 
+Und jede dieser Sachen macht die anderen schlimmer. 
+
+Er zuckt mit den Schultern. 
+
+Vendor: Dazu sagen sie Polykrise. Viele Krisen auf einmal, die sich gegenseitig füttern. 
+
+Einen Moment lang sieht er dich prüfend an.  
+
+Für einen Augenblick scheint der Lärm des Hafens leiser zu werden.  
+Dann lehnt er sich wieder an den Tank. Du könntest weiterfragen oder dich auf den Weg machen.  
+
+- #vendor
+
+@child_drawing
+title: Ein Kind beobachten
+max-visits: 1
+
+Du folgst dem Wasser. Zwischen Kisten und festgebundenen Booten hockt ein Kind im Staub. 
+
+Mit einem Stöckchen zeichnet es eine kleine Kirche, ein Schulgebäude, eine Rakete.  
+Es sind nur ein paar Striche, aber du erkennst sofort, was gemeint ist. 
+
+Für einen Moment hält der Wind inne. 
+
+Dann fegt eine Böe durch den Hafen und verwischt die Linien, bis nur noch grauer Staub bleibt. 
+
+Das Kind schaut kurz auf die leere Stelle, setzt den Stab neu an und beginnt, wieder zu zeichnen. 
+
+- @way_teahouse
+
+@way_teahouse
+title: Weiter zum Teehaus gehen
 view-if: know-sidestreet = 1 
-tags: harbour
+max-visits: 1 
 
-Du stolperst durch die Seitenstraße, während der Staub in deinem Gesicht brennt. 
+Du läufst den Pier entlang. Mit jedem Schritt werden die Rufe und Motorengeräusche leiser. 
 
-Auf dem Gehweg schwebt eine Drohne auf der Stelle und lässt Krümel in einen Schwarm gieriger Tauben fallen. Dann gerät sie ins Stocken, kippt um und liegt zappelnd am Boden.
+Unter dir schlagen die Wellen dumpf gegen die Holzpfähle. Der Staub bleibt als feiner Film auf den Planken liegen. 
 
-Die Papierlaternen des alten Teehauses schaukeln im Wind und heißen dich in gedämpftem Licht willkommen. 
+Vor dir ragt ein langer Pier ins trübe Wasser hinaus. 
+Am Ende steht ein kleiner Leuchtturm, sein Lichtkegel verliert sich auf dem Wasser. 
+
+Am Anfang des Piers erhebt sich ein alter Speicher. 
+
+Papierlaternen schaukeln im Wind. Zwischen ihnen klirren Windspiele aus alten Teekannen leise gegeneinander. 
+
+Die Laternen werfen flackernde Kreise auf die nassen Holzbohlen. 
+
+Neben dem Speicher schwebt eine Drohne auf der Stelle und lässt Krümel in einen Schwarm gieriger Tauben fallen. Dann gerät sie ins Stocken, kippt um und liegt zappelnd am Boden.
 
 - #th_arrival
 
