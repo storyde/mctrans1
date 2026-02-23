@@ -30,6 +30,14 @@
     ui = dendryUI;
     game = ui.game;
 
+    dendryUI.getContinueTitle = function() {
+      var lang = (document.documentElement && document.documentElement.lang) ? document.documentElement.lang : 'en';
+      if (lang === 'de') {
+        return 'Weiter…';
+      }
+      return 'Continue...';
+    };
+
     // Initialize the interface
     initializeInterface();
     
@@ -574,20 +582,6 @@
     }
 
     return `<p>${html}</p>`;
-  };
-
-  window.displayText = function(text) {
-    if (typeof text !== 'string') {
-      return text;
-    }
-    var lang = (document.documentElement && document.documentElement.lang) ? document.documentElement.lang : 'en';
-    if (text === 'Continue...') {
-      if (lang === 'de') {
-        return 'Weiter…';
-      }
-      return 'Continue...';
-    }
-    return text;
   };
 
   // This function allows you to do something in response to signals.

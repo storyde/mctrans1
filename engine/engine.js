@@ -1102,7 +1102,14 @@
       if (root !== this.state.sceneId) {
         var rootSceneChoose = this.game.scenes[root].chooseIf;
         if (!rootSceneChoose || this._runPredicate(rootSceneChoose, true)) {
-          choiceOutput.push({id:root, title:'Continue...', canChoose:true});
+          var continueTitle = 'Continue...';
+          if (this.ui && typeof this.ui.getContinueTitle === 'function') {
+            var customTitle = this.ui.getContinueTitle();
+            if (customTitle) {
+              continueTitle = customTitle;
+            }
+          }
+          choiceOutput.push({id:root, title:continueTitle, canChoose:true});
           ++numChoosable;
         }
       }
